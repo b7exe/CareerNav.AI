@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+
+{% block title %}Learning Dashboard — AI Career Navigator{% endblock %}
+
+{% block content %}
+<div class="flex flex-col lg:flex-row gap-8 min-h-[80vh] animate-slide-up">
+    
+    <!-- Sidebar -->
+    <aside class="lg:w-64 flex-shrink-0">
+        <div class="sticky top-24 acrylic-card p-6 rounded-2xl">
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-12 h-12 rounded-full bg-cyan-glow/10 flex items-center justify-center text-cyan-glow">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-white font-medium">B. Developer</h3>
+                    <p class="text-xs text-slate-500">Pro Tier</p>
+                </div>
+            </div>
+
+            <nav class="space-y-2">
+                <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-white/5 text-cyan-glow border border-white/5">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                    Overview
+                </a>
+                <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400 hover:text-white hover:bg-white/5 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                    Skill Matrix &amp; Gap
+                </a>
+                <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400 hover:text-white hover:bg-white/5 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    Learning Path
+                </a>
+                <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-400 hover:text-white hover:bg-white/5 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    Saved Resources
+                </a>
+            </nav>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="flex-grow space-y-8">
+        
+        <!-- Header & Target Role -->
+        <header class="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-6 border-b border-white/10">
+            <div>
+                <p class="text-sm text-cyan-glow font-semibold tracking-wider uppercase mb-1">Target Trajectory Set</p>
+                <h1 class="text-4xl font-display font-bold text-white leading-tight flex items-center gap-3">
+                    AI Red Team Engineer
+                    <span class="px-3 py-1 bg-green-500/10 border border-green-500/20 text-green-400 text-sm rounded-full font-medium">Verified Path</span>
+                </h1>
+            </div>
+            <div class="flex gap-4">
+                <button class="px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-sm text-white transition-colors">Export PDF</button>
+            </div>
+        </header>
+
+        <!-- Charts Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+            <!-- Radar Matrix -->
+            <section class="acrylic-card p-6 rounded-2xl flex flex-col">
+                <h2 class="text-xl font-display font-semibold text-white mb-6">Proficiency Matrix</h2>
+                <div class="flex-grow relative h-72">
+                    <!-- Chart.js Canvas -->
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Market Outlook Metrics -->
+            <section class="grid grid-cols-2 gap-4">
+                <div class="acrylic-card p-6 rounded-2xl">
+                    <div class="text-slate-400 text-sm mb-2">Demand Growth (YoY)</div>
+                    <div class="text-4xl font-display font-bold text-cyan-glow flex items-baseline gap-2">
+                        +342% 
+                        <svg class="w-4 h-4 text-cyan-glow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>
+                </div>
+                <div class="acrylic-card p-6 rounded-2xl">
+                    <div class="text-slate-400 text-sm mb-2">Avg. Base Salary</div>
+                    <div class="text-3xl font-display font-bold text-white">$185k<span class="text-base text-slate-500 font-normal">/yr</span></div>
+                </div>
+                <div class="acrylic-card p-6 rounded-2xl col-span-2 relative overflow-hidden group">
+                    <!-- Subtle glow behind the timeline -->
+                    <div class="absolute inset-0 bg-cyan-deep/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    
+                    <div class="text-slate-400 text-sm mb-4">Estimated Path Timeline</div>
+                    
+                    <!-- Stylized Timeline Path -->
+                    <div class="relative py-2 mt-4 px-2">
+                        <div class="absolute top-1/2 left-0 w-full h-[2px] bg-white/10 -translate-y-1/2 rounded"></div>
+                        <div class="absolute top-1/2 left-0 w-[60%] h-[2px] bg-gradient-to-r from-cyan-deep to-cyan-glow -translate-y-1/2 shadow-[0_0_8px_#00F2FE]"></div>
+                        
+                        <div class="flex justify-between relative z-10">
+                            <!-- Node -->
+                            <div class="flex flex-col items-center -ml-2 group/node">
+                                <div class="w-4 h-4 rounded-full border-2 border-void bg-cyan-glow mb-2 group-hover/node:scale-125 transition-transform"></div>
+                                <span class="text-[10px] text-slate-400 whitespace-nowrap">Current</span>
+                            </div>
+                            
+                            <!-- Node -->
+                            <div class="flex flex-col items-center group/node">
+                                <div class="w-4 h-4 rounded-full border-2 border-void bg-cyan-glow mb-2 shadow-[0_0_10px_rgba(0,242,254,0.6)] group-hover/node:scale-125 transition-transform"></div>
+                                <span class="text-[10px] text-cyan-glow absolute -bottom-5 font-bold">Month 3</span>
+                            </div>
+                            
+                            <!-- Node -->
+                            <div class="flex flex-col items-center -mr-2 group/node">
+                                <div class="w-4 h-4 rounded-full border-2 border-white/20 bg-surface mb-2 group-hover/node:bg-white/40 transition-colors"></div>
+                                <span class="text-[10px] text-slate-500 whitespace-nowrap">Target</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-8">Based on 15 hours/week study allocation.</p>
+                </div>
+            </section>
+            
+        </div>
+
+        <!-- Curated Learning Resources -->
+        <section>
+            <h2 class="text-2xl font-display font-semibold text-white mb-6">Curated Learning Resources</h2>
+            <div class="space-y-4">
+                <!-- Resource Item -->
+                <div class="acrylic-card p-5 border border-white/5 rounded-xl flex items-center justify-between group hover:border-cyan-glow/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded bg-black/40 flex items-center justify-center border border-white/5">
+                            <span class="text-cyan-deep font-bold font-display">CS</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-medium group-hover:text-cyan-glow transition-colors">Defensive Security in LLMs</h4>
+                            <p class="text-xs text-slate-400">Coursera Specialization • 4 Weeks</p>
+                        </div>
+                    </div>
+                    <button class="text-sm px-4 py-2 btn-cyan-glow rounded opacity-0 group-hover:opacity-100 transition-opacity">Enrol</button>
+                </div>
+                <!-- Resource Item -->
+                <div class="acrylic-card p-5 border border-white/5 rounded-xl flex items-center justify-between group hover:border-cyan-glow/30">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded bg-black/40 flex items-center justify-center border border-white/5">
+                            <span class="text-cyan-deep font-bold font-display">HF</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-medium group-hover:text-cyan-glow transition-colors">Hugging Face Security Mechanics</h4>
+                            <p class="text-xs text-slate-400">Interactive Lab • 2 Hours</p>
+                        </div>
+                    </div>
+                    <button class="text-sm px-4 py-2 btn-cyan-glow rounded opacity-0 group-hover:opacity-100 transition-opacity">Start Lab</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Tiers Upgrade -->
+        <section class="mt-16 pt-16 border-t border-white/10 text-center">
+            <h2 class="text-2xl font-display font-semibold text-white mb-2">Accelerate Your Transition</h2>
+            <p class="text-slate-400 mb-10 max-w-lg mx-auto">Get personalized 1-on-1 mentorship, priority API analysis, and exclusive networking events.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto text-left">
+                <!-- Basic -->
+                <div class="acrylic-card p-8 rounded-2xl flex flex-col opacity-80 backdrop-blur-sm">
+                    <h3 class="text-xl font-display font-semibold text-slate-300 mb-2">Core</h3>
+                    <div class="text-4xl font-display font-bold text-white mb-6">Free</div>
+                    <ul class="space-y-3 text-sm text-slate-400 flex-grow mb-8">
+                        <li class="flex items-center gap-2">✓ Standard Pathing</li>
+                        <li class="flex items-center gap-2">✓ Community Access</li>
+                        <li class="flex items-center gap-2 opacity-50">✕ 1-on-1 Mentorship</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-lg border border-white/20 text-white font-medium hover:bg-white/5 transition">Current Plan</button>
+                </div>
+                
+                <!-- Pro (Featured) -->
+                <div class="bg-surface/90 border border-cyan-glow shadow-[0_0_30px_rgba(0,242,254,0.15)] p-8 rounded-2xl flex flex-col relative transform md:-translate-y-4">
+                    <div class="absolute -top-3 inset-x-0 mx-auto w-fit px-3 py-1 bg-gradient-to-r from-cyan-glow to-cyan-deep text-void text-xs font-bold uppercase tracking-wider rounded-full">Recommended</div>
+                    <h3 class="text-xl font-display font-semibold text-cyan-glow mb-2">Pro</h3>
+                    <div class="text-4xl font-display font-bold text-white mb-6">$29<span class="text-base text-slate-500 font-normal">/mo</span></div>
+                    <ul class="space-y-3 text-sm text-slate-300 flex-grow mb-8">
+                        <li class="flex items-center gap-2"><span class="text-cyan-glow">✓</span> Advanced Pathing</li>
+                        <li class="flex items-center gap-2"><span class="text-cyan-glow">✓</span> Priority API Updates</li>
+                        <li class="flex items-center gap-2"><span class="text-cyan-glow">✓</span> Resume Rewriter AI</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-lg btn-cyan-glow text-void font-bold">Upgrade to Pro</button>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="acrylic-card p-8 rounded-2xl flex flex-col opacity-80 backdrop-blur-sm">
+                    <h3 class="text-xl font-display font-semibold text-slate-300 mb-2">Elite</h3>
+                    <div class="text-4xl font-display font-bold text-white mb-6">$199<span class="text-base text-slate-500 font-normal">/mo</span></div>
+                    <ul class="space-y-3 text-sm text-slate-400 flex-grow mb-8">
+                        <li class="flex items-center gap-2">✓ Everything in Pro</li>
+                        <li class="flex items-center gap-2">✓ Weekly 1-on-1 Mentoring</li>
+                        <li class="flex items-center gap-2">✓ Referral Network</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-lg border border-white/20 text-white font-medium hover:bg-white/5 transition">Apply Now</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<!-- Chart.js for Radar Matrix -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const ctx = document.getElementById('radarChart').getContext('2d');
+    
+    Chart.defaults.color = '#94A3B8';
+    Chart.defaults.font.family = 'Inter, sans-serif';
+
+    new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: ['Python', 'Sec-Tools', 'Prompt Inj.', 'LLM Arch', 'Cloud/K8s', 'Cryptography'],
+            datasets: [{
+                label: 'Current Skillset',
+                data: [85, 45, 30, 40, 60, 20],
+                fill: true,
+                backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                borderColor: 'rgba(255, 255, 255, 0.4)',
+                pointBackgroundColor: 'rgba(255, 255, 255, 0.8)',
+                pointBorderColor: '#fff',
+            }, {
+                label: 'Target Requirement',
+                data: [90, 85, 95, 80, 70, 60],
+                fill: true,
+                backgroundColor: 'rgba(0, 242, 254, 0.2)',
+                borderColor: '#00F2FE',
+                pointBackgroundColor: '#00F2FE',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: '#00F2FE'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                r: {
+                    angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+                    grid:       { color: 'rgba(255, 255, 255, 0.05)' },
+                    pointLabels: {
+                        color: '#E2E8F0',
+                        font: { size: 11 }
+                    },
+                    ticks: { display: false, min: 0, max: 100, stepSize: 20 }
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        color: '#94A3B8',
+                        padding: 20,
+                        font: { family: 'Outfit, sans-serif' }
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+{% endblock %}

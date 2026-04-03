@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+
+{% block title %}AI Career Navigator — Find Your Path{% endblock %}
+
+{# ── Randomised copy pools ─────────────────────────────────── #}
+{% set headings = [
+    'Discover the career<br/>you were built for.',
+    'Uncover the path<br/>that fits your future.',
+    'Find the role<br/>that ignites your passion.',
+    'Navigate your future<br/>with AI intelligence.',
+    'Unlock the career<br/>you never knew existed.'
+] %}
+{% set subtexts = [
+    "Tell us what excites you. We'll analyse the market, verify job scope, and surface the highest-opportunity roles — then hand you a step-by-step roadmap.",
+    "Share your passions with us. We cross-reference market data to identify the most lucrative roles that fit your profile.",
+    "Let us know what you want to build or solve. Our engine maps your interests against industry trends and clears a path.",
+    "Describe your ideal work environment. We scan current job markets to find high-growth careers that match your vibe."
+] %}
+{% set placeholders = [
+    "e.g. I love building apps, I'm fascinated by AI, I want to work at a startup…",
+    "e.g. I enjoy cybersecurity, I want to be an ethical hacker, I care about privacy…",
+    "e.g. I like working with data, I want to be a machine learning engineer, I love math…",
+    "e.g. I want to build products, I love working with teams, I am a strategic thinker…"
+] %}
+
+{% block content %}
+<section
+    id="hero"
+    class="min-h-[85vh] flex flex-col items-center justify-center text-center py-20 px-4"
+    aria-label="Career navigator hero"
+>
+    <!-- Eyebrow badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-8
+                border border-cyan-glow/25 bg-cyan-glow/5 text-cyan-glow
+                text-xs font-semibold uppercase tracking-widest transition-colors duration-500">
+        <span class="w-1.5 h-1.5 rounded-full bg-cyan-glow animate-pulse"></span>
+        AI-Powered Career Intelligence
+    </div>
+
+    <!-- Main heading -->
+    <h1 class="font-display font-extrabold text-slate-900 dark:text-white leading-tight tracking-tight mb-6 transition-colors duration-500"
+        style="font-size:clamp(2.4rem,6vw,4.5rem);">
+        {{ headings | random | safe }}
+    </h1>
+
+    <!-- Sub-text -->
+    <p class="text-lg text-slate-600 dark:text-slate-400 max-w-xl mx-auto mb-12 leading-relaxed transition-colors duration-500">
+        {{ subtexts | random }}
+    </p>
+
+    <!-- Interests form -->
+    <form
+        id="interests-form"
+        action="{{ url_for('careers') }}"
+        method="get"
+        class="w-full max-w-2xl mx-auto"
+        autocomplete="off"
+    >
+        <div class="relative mb-4">
+            <textarea
+                id="interests-input"
+                name="q"
+                rows="3"
+                maxlength="400"
+                class="w-full rounded-2xl px-6 py-5 text-base resize-none aesthetic-input transition-colors duration-500"
+                placeholder="{{ placeholders | random }}"
+                aria-label="Describe your interests"
+            ></textarea>
+        </div>
+
+        <button
+            type="submit"
+            id="interests-submit"
+            class="w-full py-4 rounded-2xl text-base font-bold btn-cyan-glow
+                   flex items-center justify-center gap-2"
+        >
+            Find My Career Paths
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+        </button>
+    </form>
+
+    <!-- Hint quick-fills -->
+    <div class="flex flex-wrap justify-center gap-2 mt-8 items-center">
+        <span class="text-xs text-slate-600 dark:text-slate-500 mr-1 transition-colors duration-500">Try:</span>
+        {% for hint in [
+            'AI and machine learning',
+            'web development',
+            'cybersecurity',
+            'data science',
+            'building startups',
+            'cloud infrastructure'
+        ] %}
+        <button
+            type="button"
+            class="hint-tag px-3 py-1 rounded-full text-xs border border-slate-300 dark:border-white/10 bg-black/[0.02] dark:bg-white/[0.02] text-slate-600 dark:text-slate-500
+                   hover:border-cyan-glow/50 hover:text-cyan-glow hover:bg-cyan-glow/10
+                   transition-all duration-300 cursor-pointer"
+            data-hint="{{ hint }}"
+        >{{ hint }}</button>
+        {% endfor %}
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="mt-16 flex flex-col items-center gap-2 text-slate-500 dark:text-slate-500 animate-bounce transition-colors duration-500">
+        <span class="text-xs uppercase tracking-widest">How it works</span>
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+        </svg>
+    </div>
+</section>
+
+<!-- ── Setup Slide Container ────────────────────────────── -->
+<section class="max-w-7xl mx-auto py-24 space-y-32">
+
+    <!-- Slide 1 -->
+    <div class="flex flex-col md:flex-row items-center gap-12 scroll-reveal reveal-fade-up">
+        <!-- Image Left -->
+        <div class="w-full md:w-1/2 flex justify-center">
+            <div class="relative group">
+                <div class="absolute inset-0 bg-cyan-glow/20 rounded-[2rem] blur-2xl group-hover:bg-cyan-glow/30 transition-all duration-500"></div>
+                <img src="{{ url_for('static', filename='img/slide1.png') }}" alt="Tell us your interests" class="relative w-full max-w-md rounded-[2rem] shadow-2xl border border-slate-200 dark:border-slate-800 transition-colors duration-500 object-cover" />
+            </div>
+        </div>
+        <!-- Text Right -->
+        <div class="w-full md:w-1/2 space-y-6 text-center md:text-left">
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-glow/10 border border-cyan-glow/20 text-cyan-glow font-bold text-lg">01</div>
+            <h2 class="font-display font-extrabold text-4xl md:text-5xl text-slate-900 dark:text-white leading-tight transition-colors duration-500">Tell us your interests</h2>
+            <p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg transition-colors duration-500">Describe what excites you — no experience, no CV required. Just your passions, curiosity, and goals. We translate your natural language into actionable career signals.</p>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="flex flex-col md:flex-row-reverse items-center gap-12 scroll-reveal reveal-fade-up">
+        <!-- Image Right (due to flex-row-reverse, visually right, DOM left) -->
+        <div class="w-full md:w-1/2 flex justify-center">
+            <div class="relative group">
+                <div class="absolute inset-0 bg-cyan-deep/20 rounded-[2rem] blur-2xl group-hover:bg-cyan-deep/30 transition-all duration-500"></div>
+                <img src="{{ url_for('static', filename='img/slide2.png') }}" alt="We analyse the market" class="relative w-full max-w-md rounded-[2rem] shadow-2xl border border-slate-200 dark:border-slate-800 transition-colors duration-500 object-cover" />
+            </div>
+        </div>
+        <!-- Text Left -->
+        <div class="w-full md:w-1/2 space-y-6 text-center md:text-left">
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-deep/10 border border-cyan-deep/20 text-cyan-deep font-bold text-lg">02</div>
+            <h2 class="font-display font-extrabold text-4xl md:text-5xl text-slate-900 dark:text-white leading-tight transition-colors duration-500">We analyse the market</h2>
+            <p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg transition-colors duration-500">Live demand data, salary benchmarks, LinkedIn signals, and trending skills — all cross-referenced in seconds. Our engine zeroes in on high-value roles tailor-made for you.</p>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="flex flex-col md:flex-row items-center gap-12 scroll-reveal reveal-fade-up">
+        <!-- Image Left -->
+        <div class="w-full md:w-1/2 flex justify-center">
+            <div class="relative group">
+                <div class="absolute inset-0 bg-cyan-glow/20 rounded-[2rem] blur-2xl group-hover:bg-cyan-glow/30 transition-all duration-500"></div>
+                <img src="{{ url_for('static', filename='img/slide3.png') }}" alt="Get your roadmap" class="relative w-full max-w-md rounded-[2rem] shadow-2xl border border-slate-200 dark:border-slate-800 transition-colors duration-500 object-cover" />
+            </div>
+        </div>
+        <!-- Text Right -->
+        <div class="w-full md:w-1/2 space-y-6 text-center md:text-left">
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-glow/10 border border-cyan-glow/20 text-cyan-glow font-bold text-lg">03</div>
+            <h2 class="font-display font-extrabold text-4xl md:text-5xl text-slate-900 dark:text-white leading-tight transition-colors duration-500">Get your roadmap</h2>
+            <p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg transition-colors duration-500">Pick a role and receive a complete, phase-by-phase learning path — curated for your level, goals, and timeline. Get actionable milestones to land your dream job.</p>
+            <div class="pt-4">
+                <a href="#hero" class="inline-flex items-center justify-center gap-2 btn-cyan-glow px-8 py-3 rounded-xl text-sm transition-colors duration-500">
+                    Get Started Above
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock %}
+
+{% block scripts %}
+<style>
+/* Smooth fade-up reveals for sections */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.scroll-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+    .scroll-reveal {
+        transition: none;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+
+<script>
+// ── Scroll Reveal Intersection Observer ─────────────────────
+(function () {
+    var reveals = document.querySelectorAll('.scroll-reveal');
+    if (!reveals.length) return;
+
+    var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, {
+        threshold: 0.15,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    reveals.forEach(function (el) { observer.observe(el); });
+
+    /* ── Hint tags pre-fill ── */
+    document.querySelectorAll('.hint-tag').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var inp = document.getElementById('interests-input');
+            if (inp) { inp.value = btn.dataset.hint; inp.focus(); }
+        });
+    });
+
+    /* ── Form submit transition ── */
+    var form = document.getElementById('interests-form');
+    var input = document.getElementById('interests-input');
+    if (form && input) {
+        form.addEventListener('submit', function (e) {
+            var val = input.value.trim();
+            if (!val) return;
+            e.preventDefault();
+            if (window._appNav) {
+                window._appNav.navigateTo('/careers?q=' + encodeURIComponent(val), 'Analysing market…');
+            }
+        });
+    }
+})();
+</script>
+{% endblock %}

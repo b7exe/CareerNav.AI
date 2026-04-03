@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#0A0F1C">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='img/icon-192.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <title>{% block title %}AI Career Navigator{% endblock %}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        void:    '#0A0F1C',
+                        surface: '#111827',
+                        'cyan-glow': '#00F2FE',
+                        'cyan-deep': '#4FACFE'
+                    },
+                    fontFamily: {
+                        sans:    ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- FOUC Prevention Script -->
+    <script>
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+
+    {% block head %}{% endblock %}
+</head>
+
+<!--
+    data-page is READ by cursor.js.
+    The orb only initialises when this attribute equals "home".
+    On every other route it is a complete no-op.
+-->
+<body
+    class="bg-gradient-to-br from-slate-50 via-cyan-50/40 to-blue-100/50 dark:bg-none dark:bg-void text-slate-900 dark:text-slate-200 antialiased min-h-screen flex flex-col relative transition-colors duration-500"
+    data-page="{{ request.endpoint or '' }}"
+    {% if request.endpoint == 'roadmap' %}
+        data-roadmap-slug="{{ roadmap.slug if roadmap else '' }}"
+        data-total-topics="{{ roadmap.total_topics if roadmap else 0 }}"
+    {% endif %}
+>
+
+    <!--
+        Gradient orb — ONLY injected on the home route.
+        cursor.js also guards internally so this is double-safe.
+    -->
+    {% if request.endpoint == 'home' %}
+    <div id="cursor-orb" aria-hidden="true"></div>
+    {% endif %}
+
+    <!-- Loading overlay — shown during page transitions -->
+    <div id="loading-overlay" class="loading-overlay" aria-hidden="true">
+        <div class="flex flex-col items-center justify-center">
+            <div class="text-3xl font-display font-bold text-slate-900 dark:text-white mb-8 flex items-center">
+                CareerNav<span class="text-cyan-glow">.</span><span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-cyan-glow to-cyan-deep text-white text-sm font-bold tracking-widest ml-1 shadow-[0_0_15px_rgba(0,242,254,0.4)]">AI</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="loading-orb !mb-0"></div>
+                <p class="loading-text text-slate-600 dark:text-cyan-deep font-medium">Loading…</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Navigation — no neon outline ──────────────────────── -->
+    <nav class="nav-clean">
+        <a href="{{ url_for('home') }}" class="nav-brand" aria-label="AI Career Navigator home">
+            CareerNav<span class="text-cyan-glow">.</span><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-br from-cyan-glow to-cyan-deep text-white text-[0.65rem] font-bold tracking-wider ml-0.5 shadow-[0_0_10px_rgba(0,242,254,0.3)]">AI</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="{{ url_for('home') }}"
+               class="nav-link {% if request.endpoint == 'home' %}active{% endif %}">
+                Home
+            </a>
+            <a href="/careers"
+               class="nav-link {% if request.endpoint == 'careers' %}active{% endif %}">
+                Careers
+            </a>
+            <button id="theme-toggle" class="p-2 ml-4 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors" aria-label="Toggle Dark Mode">
+                <!-- Sun Icon (shown in dark mode) -->
+                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                <!-- Moon Icon (shown in light mode) -->
+                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+        </div>
+
+        <a href="{{ url_for('home') }}" class="nav-cta">Get Started</a>
+
+        <!-- Hamburger (mobile only) -->
+        <button id="nav-hamburger" class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div id="nav-mobile-drawer" class="nav-mobile-drawer" aria-hidden="true">
+        <a href="{{ url_for('home') }}" class="nav-mobile-link {% if request.endpoint == 'home' %}active{% endif %}">Home</a>
+        <a href="/careers" class="nav-mobile-link {% if request.endpoint == 'careers' %}active{% endif %}">Careers</a>
+        <a href="{{ url_for('home') }}" class="nav-mobile-cta">Get Started</a>
+    </div>
+
+    <!-- ── Page content ───────────────────────────────────────── -->
+    <main class="flex-grow pt-20 pb-12 z-10 relative {% block main_class %}{% endblock %}" 
+          style="padding-top: calc(20px + env(safe-area-inset-top)); padding-bottom: env(safe-area-inset-bottom);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="page-transition-wrapper">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </main>
+
+    <!-- ── Fullscreen slides (home only, breaks out of container) ── -->
+    {% block fullscreen_slides %}{% endblock %}
+
+    <!-- ── Footer ─────────────────────────────────────────────── -->
+    <footer class="site-footer z-10 relative">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <p class="font-display font-bold text-lg text-slate-900 dark:text-white flex items-center">
+                    CareerNav<span class="text-cyan-glow">.</span><span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gradient-to-br from-cyan-glow to-cyan-deep text-white text-[0.5rem] font-bold tracking-wider ml-0.5">AI</span>
+                </p>
+                <p class="text-xs text-slate-500 mt-1">AI-powered career intelligence. Built for the next era.</p>
+            </div>
+            <div class="flex gap-6 text-sm text-slate-500">
+                <a href="#" class="hover:text-slate-300 transition-colors">Privacy</a>
+                <a href="#" class="hover:text-slate-300 transition-colors">Terms</a>
+                <a href="#" class="hover:text-slate-300 transition-colors">Contact</a>
+            </div>
+            <p class="text-xs text-slate-600">&copy; 2026 AI Career Navigator</p>
+        </div>
+    </footer>
+
+    <!-- Scripts — load order matters -->
+    <script src="{{ url_for('static', filename='js/transitions.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/cursor.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/roadmap.js') }}"></script>
+
+    <script>
+        var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+        // Change the icons inside the button based on previous settings
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+        } else {
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+
+        var themeToggleBtn = document.getElementById('theme-toggle');
+
+        themeToggleBtn.addEventListener('click', function() {
+            // toggle icons
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+
+            // if set via local storage previously
+            if (localStorage.getItem('theme')) {
+                if (localStorage.getItem('theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('theme', 'light');
+                }
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('theme', 'dark');
+                }
+            }
+        });
+    </script>
+    <script>
+        // Hamburger mobile menu toggle
+        const hamburger = document.getElementById('nav-hamburger');
+        const mobileDrawer = document.getElementById('nav-mobile-drawer');
+        if (hamburger && mobileDrawer) {
+            hamburger.addEventListener('click', () => {
+                const isOpen = hamburger.classList.toggle('open');
+                hamburger.setAttribute('aria-expanded', isOpen);
+                if (isOpen) {
+                    mobileDrawer.classList.add('open');
+                    mobileDrawer.setAttribute('aria-hidden', 'false');
+                } else {
+                    mobileDrawer.classList.remove('open');
+                    mobileDrawer.setAttribute('aria-hidden', 'true');
+                }
+            });
+            // Close drawer when a link is clicked
+            mobileDrawer.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    hamburger.classList.remove('open');
+                    mobileDrawer.classList.remove('open');
+                });
+            });
+        }
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

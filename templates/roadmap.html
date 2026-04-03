@@ -1,0 +1,340 @@
+{% extends "base.html" %}
+
+{% block title %}{{ roadmap.title }} Roadmap — AI Career Navigator{% endblock %}
+
+{% block content %}
+{% if roadmap.found %}
+
+<div class="roadmap-layout">
+
+    <!-- ── Sidebar ─────────────────────────────────────────────── -->
+    <aside class="roadmap-sidebar">
+        <nav class="roadmap-sidebar-nav">
+            <div class="roadmap-sidebar-label">Phases</div>
+            {% for phase in roadmap.phases %}
+            <div
+                class="roadmap-sidebar-item"
+                data-phase="{{ phase.index }}"
+                role="button" tabindex="0"
+                aria-label="Jump to {{ phase.title }}"
+            >
+                <span class="roadmap-sidebar-dot"></span>
+                <span class="truncate">{{ phase.title }}</span>
+                <span class="ml-auto text-xs text-slate-600">{{ phase.topics | length }}</span>
+            </div>
+            {% endfor %}
+        </nav>
+
+        <!-- Progress -->
+        <div class="acrylic-card p-5 rounded-2xl mt-4">
+            <div class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">Progress</div>
+            <p id="progress-label" class="text-sm text-slate-300 mb-3">
+                0 of {{ roadmap.total_topics }} topics
+            </p>
+            <div class="progress-track">
+                <div class="progress-fill" id="progress-fill" style="width:0%;"></div>
+            </div>
+        </div>
+
+        {% if roadmap.market %}
+        <!-- Market quick-stats -->
+        <div class="acrylic-card p-5 rounded-2xl mt-4 space-y-3">
+            <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Market Snapshot</div>
+            <div class="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span class="text-slate-300">{{ roadmap.market.avg_salary }}</span>
+            </div>
+            <div class="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                <span class="text-slate-300">{{ roadmap.market.yoy_growth }}</span> YoY growth
+            </div>
+            <div class="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                Risk: <span class="text-slate-300">{{ roadmap.market.risk_level }}</span>
+            </div>
+            <div class="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                Scope: <span class="text-slate-300">{{ roadmap.market.scope }}</span>
+            </div>
+            <div class="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span class="text-slate-300">{{ roadmap.market.lifetime }}</span>
+            </div>
+        </div>
+        {% endif %}
+    </aside>
+
+    <!-- ── Main content ─────────────────────────────────────────── -->
+    <div>
+
+        <!-- Back link (returns to careers with preserved interests) -->
+        <a
+            href="{{ url_for('careers') }}?q={{ interests | urlencode }}"
+            class="inline-flex items-center gap-2 text-slate-500 hover:text-cyan-glow text-sm mb-5 transition-colors group"
+        >
+            <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5M5 12l7 7M5 12l7-7"/>
+            </svg>
+            Back to career options
+        </a>
+
+        <!-- Header -->
+        <header class="pb-6 mb-8 border-b border-white/8">
+            {% if roadmap.market %}
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider
+                         bg-cyan-glow/8 border border-cyan-glow/20 text-cyan-glow mb-4">
+                {{ roadmap.market.tag }}
+            </span>
+            {% endif %}
+
+            <h1 class="font-display font-extrabold text-white text-4xl md:text-5xl leading-tight flex flex-wrap items-center gap-3 mb-4">
+                {{ roadmap.title }}
+                <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider
+                             bg-cyan-glow/8 border border-cyan-glow/20 text-cyan-glow">
+                    {{ roadmap.phases | length }} phases
+                </span>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider
+                             bg-white/5 border border-white/8 text-slate-400">
+                    {{ roadmap.total_topics }} topics
+                </span>
+                
+                {% if roadmap.is_ai_generated %}
+                <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider
+                             bg-amber-500/10 border border-amber-500/20 text-amber-500 animate-pulse">
+                    AI-Augmented Path
+                </span>
+                {% endif %}
+            </h1>
+
+            {% if roadmap.market %}
+            <p class="text-slate-400 text-sm max-w-2xl mb-3">
+                {{ roadmap.market.trending_reason }}
+            </p>
+            {% endif %}
+
+            <!-- Mobile progress -->
+            <div class="flex items-center gap-3 mt-4 lg:hidden">
+                <span class="text-xs text-slate-500 whitespace-nowrap" id="progress-label-mobile">
+                    0 of {{ roadmap.total_topics }} done
+                </span>
+                <div class="progress-track flex-1">
+                    <div class="progress-fill" id="progress-fill-mobile" style="width:0%;"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Phase cards -->
+        <div class="flex flex-col gap-4">
+            {% for phase in roadmap.phases %}
+            <div
+                class="roadmap-phase-card"
+                data-phase-index="{{ phase.index }}"
+                style="animation-delay: {{ (loop.index0 * 55) }}ms;"
+            >
+                <div class="phase-header" role="button" tabindex="0"
+                     aria-expanded="{{ 'true' if loop.first else 'false' }}">
+                    <div class="phase-number">{{ phase.index }}</div>
+                    <h2 class="phase-title">{{ phase.title }}</h2>
+                    <span class="phase-count">{{ phase.topics | length }}</span>
+                    <svg class="phase-chevron w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </div>
+
+                <div class="phase-body">
+                    <div class="phase-divider"></div>
+                    <div class="subtopics-grid">
+                        {% for topic in phase.topics %}
+                        <div
+                            class="subtopic-item"
+                            data-topic-id="{{ topic.id }}"
+                            role="checkbox" aria-checked="false"
+                            tabindex="0" aria-label="{{ topic.label }}"
+                        >
+                            <div class="subtopic-check"></div>
+                            <span class="subtopic-label">{{ topic.label }}</span>
+                            {% if topic.resources %}
+                            <svg class="w-3 h-3 flex-shrink-0 text-slate-600" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+                            </svg>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Bottom CTA -->
+        <div class="mt-12 acrylic-card p-8 rounded-2xl text-center">
+            <div class="flex justify-center mb-4 text-cyan-glow">
+                <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-2">Start your journey</h3>
+            <p class="text-slate-400 text-sm mb-6 max-w-md mx-auto">
+                Check off topics as you complete them. Your progress is saved automatically.
+            </p>
+            <div class="flex flex-wrap gap-3 justify-center">
+                <a href="{{ url_for('careers') }}?q={{ interests | urlencode }}"
+                   class="px-6 py-3 rounded-full text-sm font-medium text-white border border-white/15
+                          hover:border-cyan-glow/40 hover:bg-white/5 transition duration-300">
+                    ← Explore other roles
+                </a>
+                <a href="{{ url_for('assessment') }}"
+                   class="px-8 py-3 rounded-full text-sm font-semibold btn-cyan-glow flex items-center gap-2">
+                    Get Personal Assessment
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ── AI Counselor Chat Widget ────────────────────────────────────── -->
+<div id="ai-chat-widget" class="fixed bottom-6 right-6 z-[60] flex flex-col items-end gap-3 pointer-events-none">
+    
+    <!-- Chat Window -->
+    <div id="chat-window" class="w-[350px] max-w-[calc(100vw-3rem)] h-[450px] bg-[#0B1120] border border-white/10 rounded-2xl shadow-2xl flex flex-col overflow-hidden opacity-0 translate-y-4 pointer-events-auto transition-all duration-300 hidden">
+        <!-- Header -->
+        <div class="px-5 py-4 bg-white/5 border-b border-white/10 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-full bg-cyan-glow/20 flex items-center justify-center text-cyan-glow">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                </div>
+                <div>
+                    <div class="text-xs font-bold text-white uppercase tracking-wider">AI Counselor</div>
+                    <div class="text-[10px] text-cyan-glow font-medium">Expert in {{ roadmap.title }}</div>
+                </div>
+            </div>
+            <button onclick="toggleChat()" class="text-slate-500 hover:text-white transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+
+        <!-- Messages Area -->
+        <div id="chat-messages" class="flex-1 overflow-y-auto p-5 space-y-4 custom-scrollbar">
+            <div class="bg-white/5 border border-white/5 rounded-2xl rounded-tl-none p-3 text-xs text-slate-300 leading-relaxed max-w-[85%]">
+                Greetings. I'm your advisor for the <strong>{{ roadmap.title }}</strong> path. The 2026 market is unforgiving—ask me anything about surviving this career track.
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="p-4 bg-white/5 border-t border-white/10">
+            <form id="chat-form" class="flex gap-2">
+                <input 
+                    type="text" 
+                    id="chat-input"
+                    placeholder="Ask about your strategy..."
+                    class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs text-white placeholder:text-slate-600 focus:outline-none focus:border-cyan-glow/50 transition-colors"
+                >
+                <button type="submit" class="w-10 h-10 rounded-xl bg-cyan-glow flex items-center justify-center text-black hover:scale-105 active:scale-95 transition-transform">
+                    <svg class="w-4 h-4 translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M2.25 15.75L12 21.75l9.75-6M2.25 9l9.75 6 9.75-6M12 3L2.25 9 12 15l9.75-6L12 3z"></path></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toggle Button -->
+    <button 
+        id="chat-toggle"
+        onclick="toggleChat()"
+        class="w-14 h-14 rounded-full bg-cyan-glow shadow-[0_0_20px_rgba(0,242,254,0.3)] flex items-center justify-center text-black pointer-events-auto hover:scale-110 active:scale-90 transition-transform group"
+    >
+        <svg class="w-7 h-7 group-hover:rotate-12 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+    </button>
+
+</div>
+
+<script>
+    function toggleChat() {
+        const window = document.getElementById('chat-window');
+        const isHidden = window.classList.contains('hidden');
+        
+        if (isHidden) {
+            window.classList.remove('hidden');
+            setTimeout(() => {
+                window.classList.remove('opacity-0', 'translate-y-4');
+                window.classList.add('opacity-100', 'translate-y-0');
+            }, 10);
+        } else {
+            window.classList.remove('opacity-100', 'translate-y-0');
+            window.classList.add('opacity-0', 'translate-y-4');
+            setTimeout(() => {
+                window.classList.add('hidden');
+            }, 300);
+        }
+    }
+
+    const chatForm = document.getElementById('chat-form');
+    const chatInput = document.getElementById('chat-input');
+    const chatMessages = document.getElementById('chat-messages');
+
+    chatForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const text = chatInput.value.trim();
+        if (!text) return;
+
+        // User message
+        appendMessage('user', text);
+        chatInput.value = '';
+
+        // Typing indicator
+        const typingId = appendMessage('bot', '<span class="animate-pulse">Analyzing market data...</span>');
+
+        try {
+            const res = await fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    role: "{{ roadmap.title }}",
+                    message: text
+                })
+            });
+            const data = await res.json();
+            
+            // Replace typing with response
+            const typingElem = document.getElementById(typingId);
+            typingElem.innerHTML = data.response;
+        } catch (err) {
+            const typingElem = document.getElementById(typingId);
+            typingElem.innerText = "Connection severed. Neural link unstable.";
+        }
+    });
+
+    function appendMessage(sender, text) {
+        const id = 'msg-' + Date.now();
+        const div = document.createElement('div');
+        div.id = id;
+        if (sender === 'user') {
+            div.className = 'ml-auto bg-cyan-glow/10 border border-cyan-glow/20 rounded-2xl rounded-tr-none p-3 text-xs text-cyan-glow leading-relaxed max-w-[85%]';
+        } else {
+            div.className = 'bg-white/5 border border-white/5 rounded-2xl rounded-tl-none p-3 text-xs text-slate-300 leading-relaxed max-w-[85%]';
+        }
+        div.innerHTML = text;
+        chatMessages.appendChild(div);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        return id;
+    }
+</script>
+
+{% else %}
+<!-- Not found -->
+<div class="max-w-xl mx-auto py-32 text-center">
+    <div class="flex justify-center mb-6">
+        <svg class="w-16 h-16 text-slate-500 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+    </div>
+    <h1 class="font-display font-bold text-white text-3xl mb-3">Roadmap not found</h1>
+    <p class="text-slate-400 mb-8">
+        No roadmap exists for <strong class="text-white">{{ roadmap.slug }}</strong>.
+    </p>
+    <a href="{{ url_for('careers') }}?q={{ interests | urlencode }}"
+       class="px-8 py-4 rounded-full font-semibold btn-cyan-glow inline-flex">
+        Back to roles
+    </a>
+</div>
+{% endif %}
+{% endblock %}
