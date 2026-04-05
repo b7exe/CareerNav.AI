@@ -1,0 +1,1763 @@
+{
+    "ai-engineer": {
+        "slug": "ai-engineer",
+        "title": "AI Engineer",
+        "category": "Artificial Intelligence",
+        "description": "Designing and deploying LLM-based applications, fine-tuning models, and building RAG systems.",
+        "why_now": "Companies are migrating from 'AI-curious' to 'AI-native', requiring engineers who can integrate models into products.",
+        "core_skills": [
+            "Python",
+            "PyTorch",
+            "Transformers",
+            "API Integration",
+            "Vector Databases"
+        ],
+        "emerging_skills": [
+            "Agentic Workflows",
+            "Model Distillation",
+            "GPU Optimization"
+        ],
+        "avg_salary_india": "18 - 45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Hyper-growth phase with extreme talent scarcity.",
+        "scope": "Big Tech, AI Startups, Enterprise R&D",
+        "lifetime": "15+ years (Foundational for the next computing era)",
+        "match_keywords": [
+            "ai",
+            "ml",
+            "llm",
+            "neural",
+            "intelligence",
+            "gpt",
+            "model"
+        ],
+        "youtube_resources": [
+            "Andrej Karpathy",
+            "Sentdex",
+            "DeepLearning.AI"
+        ],
+        "type": "career",
+        "demand_score": 98,
+        "social_signal": 50
+    },
+    "prompt-engineer": {
+        "slug": "prompt-engineer",
+        "title": "Prompt Engineer",
+        "category": "Artificial Intelligence",
+        "description": "Optimizing inputs for LLMs to achieve consistent, high-quality results for enterprise automation.",
+        "why_now": "Context window management and prompt chain optimization are now critical for production AI stability.",
+        "core_skills": [
+            "Prompt Engineering",
+            "LLM Evaluation",
+            "Python",
+            "Natural Language Analysis"
+        ],
+        "emerging_skills": [
+            "DSPy",
+            "Automated Prompt Tuning",
+            "Chain-of-Thought Design"
+        ],
+        "avg_salary_india": "12 - 30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Rapidly evolving; shifting from manual prompting to programmatic 'DSPy' style optimization.",
+        "scope": "Marketing, Content Ops, Software Development Teams",
+        "lifetime": "3-5 years (Likely to be absorbed into standard SWE roles)",
+        "match_keywords": [
+            "prompt",
+            "llm tuning",
+            "instruct",
+            "chatgpt",
+            "claude"
+        ],
+        "youtube_resources": [
+            "Andrew Ng",
+            "Prompt Engineering Institute"
+        ],
+        "type": "career",
+        "demand_score": 85,
+        "social_signal": 50
+    },
+    "mlops-engineer": {
+        "slug": "mlops-engineer",
+        "title": "MLOps Engineer",
+        "category": "Infrastructure",
+        "description": "The DevOps of AI \u2014 focusing on the deployment, scaling, and monitoring of machine learning models.",
+        "why_now": "Enterprises have many models but few production-grade deployment pipelines.",
+        "core_skills": [
+            "Kubernetes",
+            "Docker",
+            "MLflow",
+            "Kubeflow",
+            "Cloud (AWS/GCP/Azure)"
+        ],
+        "emerging_skills": [
+            "LLMOps",
+            "Vector DB Scaling",
+            "GPU Cluster Management"
+        ],
+        "avg_salary_india": "15 - 40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Critical bottleneck for enterprise AI adoption.",
+        "scope": "FinTech, HealthTech, E-commerce",
+        "lifetime": "10-12 years",
+        "match_keywords": [
+            "mlops",
+            "deployment",
+            "pipeline",
+            "scaling",
+            "gpu",
+            "infrastructure"
+        ],
+        "youtube_resources": [
+            "TechWorld with Nana",
+            "Databricks"
+        ],
+        "type": "career",
+        "demand_score": 94,
+        "social_signal": 50
+    },
+    "full-stack": {
+        "slug": "full-stack",
+        "title": "Full Stack Developer (AI-Native)",
+        "category": "Software Engineering",
+        "description": "End-to-end product development using AI-assisted coding and integrating AI features natively.",
+        "why_now": "The bar for 'MVP' has risen; AI-native stacks (Next.js + Vercel + Supabase) are the new standard.",
+        "core_skills": [
+            "React/Next.js",
+            "Node.js",
+            "TypeScript",
+            "PostgreSQL",
+            "Tailwind CSS"
+        ],
+        "emerging_skills": [
+            "Cursor/v0 Mastery",
+            "AI Feature Integration",
+            "Edge Computing"
+        ],
+        "avg_salary_india": "10 - 35 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Evolving into 'Product Engineering' \u2014 focus on speed-to-market.",
+        "scope": "Startups, SaaS, Product Companies",
+        "lifetime": "Indefinite (The most versatile role)",
+        "match_keywords": [
+            "fullstack",
+            "web",
+            "react",
+            "nextjs",
+            "product",
+            "startup",
+            "apps",
+            "developing"
+        ],
+        "youtube_resources": [
+            "Theo - t3.gg",
+            "Web Dev Simplified",
+            "Fireship"
+        ],
+        "type": "career",
+        "demand_score": 96,
+        "social_signal": 50
+    },
+    "backend": {
+        "slug": "backend",
+        "title": "Backend Engineer",
+        "category": "Software Engineering",
+        "description": "Building robust server-side logic, database architectures, and high-performance APIs.",
+        "why_now": "Data-heavy AI applications require highly optimized and secure backend infrastructures.",
+        "core_skills": [
+            "Python/Go/Java",
+            "SQL/NoSQL",
+            "System Design",
+            "Microservices",
+            "API Design"
+        ],
+        "emerging_skills": [
+            "Distributed AI Inference",
+            "Zero-Trust Architecture",
+            "GraphQL"
+        ],
+        "avg_salary_india": "12 - 38 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Stable but shift toward specialized high-performance systems.",
+        "scope": "SaaS, Enterprise, Banking",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "backend",
+            "server",
+            "api",
+            "database",
+            "java",
+            "go",
+            "python",
+            "sql",
+            "developing",
+            "applications",
+            "apps"
+        ],
+        "youtube_resources": [
+            "Hussein Nasser",
+            "ArjanCodes"
+        ],
+        "type": "career",
+        "demand_score": 90,
+        "social_signal": 50
+    },
+    "frontend": {
+        "slug": "frontend",
+        "title": "Frontend Developer",
+        "category": "Software Engineering",
+        "description": "Creating immersive, high-performance user interfaces and complex web-based dashboards.",
+        "why_now": "Complex AI outputs require sophisticated visualization and real-time interaction patterns.",
+        "core_skills": [
+            "React/Vue",
+            "JavaScript/TS",
+            "CSS/Tailwind",
+            "Responsive Design",
+            "Web Performance"
+        ],
+        "emerging_skills": [
+            "AI-Driven UI (v0/Bolt)",
+            "Three.js",
+            "Advanced Animations"
+        ],
+        "avg_salary_india": "8 - 28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Saturating; manual boilerplate coding is being automated by AI UI tools.",
+        "scope": "Agency, Product companies, E-commerce",
+        "lifetime": "Moderate (Evolving into Product Engineering)",
+        "match_keywords": [
+            "frontend",
+            "ui",
+            "ux",
+            "web",
+            "react",
+            "css",
+            "interface"
+        ],
+        "youtube_resources": [
+            "Kevin Powell",
+            "Jack Herrington"
+        ],
+        "type": "career",
+        "demand_score": 70,
+        "social_signal": 50
+    },
+    "mobile-developer": {
+        "slug": "mobile-developer",
+        "title": "Mobile Developer",
+        "category": "Software Engineering",
+        "description": "Building cross-platform or native mobile applications for iOS and Android.",
+        "why_now": "Mobile-first AI assistants are the primary interface for many consumers.",
+        "core_skills": [
+            "Flutter",
+            "React Native",
+            "Swift/Kotlin",
+            "Mobile UI",
+            "API Integration"
+        ],
+        "emerging_skills": [
+            "On-device ML",
+            "Mobile AI Integration"
+        ],
+        "avg_salary_india": "10 - 32 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Strong demand for cross-platform (Flutter/RN) generalists.",
+        "scope": "Consumer Apps, Fintech, Delivery",
+        "lifetime": "8-10 years",
+        "match_keywords": [
+            "mobile",
+            "android",
+            "ios",
+            "flutter",
+            "react native",
+            "apps"
+        ],
+        "youtube_resources": [
+            "The Net Ninja",
+            "FilledStacks"
+        ],
+        "type": "career",
+        "demand_score": 88,
+        "social_signal": 50
+    },
+    "cloud-architect": {
+        "slug": "cloud-architect",
+        "title": "Cloud Architect",
+        "category": "Infrastructure",
+        "description": "Designing large-scale cloud infrastructure and multi-cloud strategies.",
+        "why_now": "AI cloud bills are massive; efficiency and cost-optimization are now survivability traits.",
+        "core_skills": [
+            "AWS/Azure/GCP",
+            "Infrastructure as Code",
+            "Architecture Patterns",
+            "Security"
+        ],
+        "emerging_skills": [
+            "Cloud Cost (FinOps)",
+            "Global Scalability for LLMs"
+        ],
+        "avg_salary_india": "25 - 60+ LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Elite role; high barrier to entry due to complexity.",
+        "scope": "Enterprise, Government, Tech Giants",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "cloud",
+            "architecture",
+            "aws",
+            "azure",
+            "gcp",
+            "solutions",
+            "enterprise"
+        ],
+        "youtube_resources": [
+            "A Cloud Guru",
+            "IBM Technology"
+        ],
+        "type": "career",
+        "demand_score": 95,
+        "social_signal": 50
+    },
+    "devsecops": {
+        "slug": "devsecops",
+        "title": "DevSecOps Engineer",
+        "category": "Security",
+        "description": "Integrating automated security practices directly into the DevOps pipeline.",
+        "why_now": "AI-generated code introduces new security risks that must be caught automatically.",
+        "core_skills": [
+            "DevOps Tools",
+            "Security Auditing",
+            "SAST/DAST",
+            "Container Security"
+        ],
+        "emerging_skills": [
+            "AI-Security Shielding",
+            "Automated Vulnerability Fixing"
+        ],
+        "avg_salary_india": "15 - 42 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "One of the most critical roles as cyber-threats become AI-powered.",
+        "scope": "Finance, Healthcare, Tech Infrastructure",
+        "lifetime": "12+ years",
+        "match_keywords": [
+            "devsecops",
+            "security",
+            "pipeline",
+            "automated security",
+            "vulnerability"
+        ],
+        "youtube_resources": [
+            "Snyk",
+            "NetworkChuck"
+        ],
+        "type": "career",
+        "demand_score": 97,
+        "social_signal": 50
+    },
+    "devops": {
+        "slug": "devops",
+        "title": "DevOps Engineer",
+        "category": "Infrastructure",
+        "description": "Managing deployment automation and infrastructure as code.",
+        "why_now": "Shift toward Platform Engineering and infrastructure that manages AI GPUs.",
+        "core_skills": [
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "Terraform",
+            "Monitoring"
+        ],
+        "emerging_skills": [
+            "Platform Engineering",
+            "AIOps",
+            "Self-healing Systems"
+        ],
+        "avg_salary_india": "12 - 35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Transitioning to more architectural 'Platform' roles.",
+        "scope": "Every scale of tech company",
+        "lifetime": "10+ years",
+        "match_keywords": [
+            "devops",
+            "cloud",
+            "aws",
+            "kubernetes",
+            "infra",
+            "deploy",
+            "ci-cd",
+            "terraform",
+            "automation",
+            "automate",
+            "pipeline"
+        ],
+        "youtube_resources": [
+            "TechWorld with Nana",
+            "KodeKloud"
+        ],
+        "type": "career",
+        "demand_score": 92,
+        "social_signal": 50
+    },
+    "cyber-security-analyst": {
+        "slug": "cyber-security-analyst",
+        "title": "Cybersecurity Analyst",
+        "category": "Security",
+        "description": "Protecting systems and networks by analyzing threats and responding to incidents.",
+        "why_now": "Ransomware and AI-powered phishing are at an all-time high.",
+        "core_skills": [
+            "Network Security",
+            "SIEM",
+            "Incident Response",
+            "Threat Hunting"
+        ],
+        "emerging_skills": [
+            "AI Threat Intelligence",
+            "Behavioral Analytics"
+        ],
+        "avg_salary_india": "6 - 22 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Strong entry-level path; high demand for SoC analysts.",
+        "scope": "IT Services, Banking, Government",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "security",
+            "defender",
+            "soc",
+            "analyst",
+            "firewall",
+            "threat"
+        ],
+        "youtube_resources": [
+            "Professor Messer",
+            "Black Hills Information Security"
+        ],
+        "type": "career",
+        "demand_score": 88,
+        "social_signal": 50
+    },
+    "penetration-tester": {
+        "slug": "penetration-tester",
+        "title": "Penetration Tester",
+        "category": "Security",
+        "description": "Ethical hacking to find vulnerabilities before the bad actors do.",
+        "why_now": "New attack vectors in LLMs and AI APIs require specialized 'Red Teaming' skills.",
+        "core_skills": [
+            "Kali Linux",
+            "Metasploit",
+            "Scripting (Python)",
+            "Web security"
+        ],
+        "emerging_skills": [
+            "AI Jailbreaking",
+            "Prompt Injection Testing"
+        ],
+        "avg_salary_india": "10 - 35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Elite, high-challenge role that rewards creative thinking.",
+        "scope": "Security Firms, Tech Giants",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "pen test",
+            "ethical hacker",
+            "vulnerability editor",
+            "kali",
+            "exploit",
+            "security"
+        ],
+        "youtube_resources": [
+            "John Hammond",
+            "IPPSec"
+        ],
+        "type": "career",
+        "demand_score": 93,
+        "social_signal": 50
+    },
+    "data-engineer": {
+        "slug": "data-engineer",
+        "title": "Data Engineer",
+        "category": "Data Science",
+        "description": "Building and maintaining the pipes that move and transform giant datasets.",
+        "why_now": "AI is only as good as the data; high-quality data pipelines are the foundation of AI success.",
+        "core_skills": [
+            "SQL",
+            "Spark",
+            "Airflow",
+            "Python/Java",
+            "Data Warehousing"
+        ],
+        "emerging_skills": [
+            "Real-time Streaming",
+            "Vector DB Management"
+        ],
+        "avg_salary_india": "12 - 42 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "The 'hidden work' behind every AI project; demand is massive.",
+        "scope": "Data-heavy companies (Retail, Finance, Tech)",
+        "lifetime": "12+ years",
+        "match_keywords": [
+            "data engineer",
+            "etl",
+            "spark",
+            "hadoop",
+            "warehouse",
+            "big data"
+        ],
+        "youtube_resources": [
+            "Seattle Data Guy",
+            "DataWithDanny"
+        ],
+        "type": "career",
+        "demand_score": 96,
+        "social_signal": 50
+    },
+    "data-scientist": {
+        "slug": "data-scientist",
+        "title": "Data Scientist",
+        "category": "Data Science",
+        "description": "Extracting insights from data using statistical models and ML algorithms.",
+        "why_now": "Shift from simple dashboards to predictive AI-driven decision making.",
+        "core_skills": [
+            "Statistics",
+            "Python/R",
+            "Machine Learning",
+            "Data Analysis"
+        ],
+        "emerging_skills": [
+            "Deep Learning",
+            "Business Strategy Synthesis"
+        ],
+        "avg_salary_india": "10 - 35 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Maturing field; basic analysis is being automated by LLMs.",
+        "scope": "Marketing, Operations, Research",
+        "lifetime": "8-10 years",
+        "match_keywords": [
+            "data scientist",
+            "modeling",
+            "prediction",
+            "statistics",
+            "math"
+        ],
+        "youtube_resources": [
+            "Ken Jee",
+            "Krish Naik"
+        ],
+        "type": "career",
+        "demand_score": 75,
+        "social_signal": 50
+    },
+    "data-analyst": {
+        "slug": "data-analyst",
+        "title": "Data Analyst",
+        "category": "Data Science",
+        "description": "Visualizing and interpreting data to answer business questions.",
+        "why_now": "Low barrier to entry for AI-assisted data storytelling.",
+        "core_skills": [
+            "SQL",
+            "Excel",
+            "Tableau/PowerBI",
+            "Python"
+        ],
+        "emerging_skills": [
+            "AI Reporting",
+            "Automated SQL Generation"
+        ],
+        "avg_salary_india": "5 - 18 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "High risk of automation for basic dashboarding tasks.",
+        "scope": "Every modern business department",
+        "lifetime": "5-7 years (Must evolve to Data/AI Engineer)",
+        "match_keywords": [
+            "data analyst",
+            "tableau",
+            "bi",
+            "reporting",
+            "excel",
+            "sql"
+        ],
+        "youtube_resources": [
+            "Alex The Analyst",
+            "Chandoo"
+        ],
+        "type": "career",
+        "demand_score": 60,
+        "social_signal": 50
+    },
+    "bi-analyst": {
+        "slug": "bi-analyst",
+        "title": "BI Analyst",
+        "category": "Data Science",
+        "description": "Focusing on enterprise intelligence, reporting strategy, and warehouse mapping.",
+        "why_now": "Bridging the gap between raw data and executive strategy.",
+        "core_skills": [
+            "PowerBI/Tableau",
+            "SQL",
+            "ETL concepts",
+            "Business logic"
+        ],
+        "emerging_skills": [
+            "Semantic Layer Design",
+            "Natural Language BI"
+        ],
+        "avg_salary_india": "7 - 22 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Stable; shifting toward strategic data advisory.",
+        "scope": "Corporate headquarters, Consulting",
+        "lifetime": "8+ years",
+        "match_keywords": [
+            "bi",
+            "business intelligence",
+            "dahsboard",
+            "executive reporting"
+        ],
+        "youtube_resources": [
+            "Guy in a Cube",
+            "SQLBI"
+        ],
+        "type": "career",
+        "demand_score": 68,
+        "social_signal": 50
+    },
+    "software-architect": {
+        "slug": "software-architect",
+        "title": "Software Architect",
+        "category": "Management & Architecture",
+        "description": "High-level design of system architectures, tech stack selection, and scalability patterns.",
+        "why_now": "AI makes individual coding fast, but makes system complexity grow exponentially. Architects are needed more than ever.",
+        "core_skills": [
+            "System Design",
+            "Cloud Native Patterns",
+            "Scalability",
+            "Trade-off Analysis"
+        ],
+        "emerging_skills": [
+            "Agentic System Architecture",
+            "AI Orchestration Patterns"
+        ],
+        "avg_salary_india": "35 - 80+ LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Apex software role; immune to automation of syntax.",
+        "scope": "Large Product Orgs, High-Scale Startups",
+        "lifetime": "Career-long",
+        "match_keywords": [
+            "architecture",
+            "architect",
+            "system design",
+            "lead",
+            "strategy"
+        ],
+        "youtube_resources": [
+            "ByteByteGo",
+            "Gaurav Sen"
+        ],
+        "type": "career",
+        "demand_score": 98,
+        "social_signal": 50
+    },
+    "api-design-specialist": {
+        "slug": "api-design-specialist",
+        "title": "API Design Specialist",
+        "category": "Software Engineering",
+        "description": "Focusing exclusively on the contract and design of high-scale and developer-friendly APIs.",
+        "why_now": "The 'API Economy' is the AI Economy; models communicate via APIs.",
+        "core_skills": [
+            "REST",
+            "GraphQL",
+            "gRPC",
+            "API Management (Apigee)",
+            "Security"
+        ],
+        "emerging_skills": [
+            "AI-ready API Spec (LLM Tools)",
+            "Real-time streaming"
+        ],
+        "avg_salary_india": "18 - 45 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Growing niche for platform-focused engineers.",
+        "scope": "Saas, FinTech, API-first products",
+        "lifetime": "10+ years",
+        "match_keywords": [
+            "api",
+            "rest",
+            "graphql",
+            "interface design",
+            "contract"
+        ],
+        "youtube_resources": [
+            "Pragmatic Programmer",
+            "Postman Content"
+        ],
+        "type": "career",
+        "demand_score": 86,
+        "social_signal": 50
+    },
+    "game-developer": {
+        "slug": "game-developer",
+        "title": "Game Developer",
+        "category": "Software Engineering",
+        "description": "Using Unity or Unreal Engine to build games or interactive simulations.",
+        "why_now": "Generative AI for 3D assets and NPCs is fundamentally changing the build speed.",
+        "core_skills": [
+            "C#/C++",
+            "Unity/Unreal",
+            "Math",
+            "Game Design",
+            "Optimization"
+        ],
+        "emerging_skills": [
+            "Generative NPCs",
+            "AI Asset Pipelines"
+        ],
+        "avg_salary_india": "6 - 25 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "Passion-driven field with high specialized demand.",
+        "scope": "Gaming Studios, EdTech, Metaverse",
+        "lifetime": "10+ years",
+        "match_keywords": [
+            "game",
+            "unity",
+            "unreal",
+            "gaming",
+            "3d",
+            "interactive",
+            "build game servers"
+        ],
+        "youtube_resources": [
+            "Brackeys",
+            "The Cherno"
+        ],
+        "type": "career",
+        "demand_score": 75,
+        "social_signal": 50
+    },
+    "qa-engineer": {
+        "slug": "qa-engineer",
+        "title": "QA Engineer (Automation)",
+        "category": "Software Engineering",
+        "description": "Ensuring software quality through rigorous automated testing and bug hunting.",
+        "why_now": "AI-generated code needs MORE testing, not less. Automation is now mandatory.",
+        "core_skills": [
+            "Selenium/Playwright",
+            "Test Strategy",
+            "Bug Tracking",
+            "CI/CD integration"
+        ],
+        "emerging_skills": [
+            "AI-Assisted Testing",
+            "Autonomous QA Agents"
+        ],
+        "avg_salary_india": "5 - 18 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Manual testers are being phased out; automation engineers are moving to 'Quality Engineering'.",
+        "scope": "IT Services, Product companies",
+        "lifetime": "5-8 years",
+        "match_keywords": [
+            "qa",
+            "testing",
+            "automation",
+            "selenium",
+            "manual testing"
+        ],
+        "youtube_resources": [
+            "The Testing Academy",
+            "Dave Haeffner"
+        ],
+        "type": "career",
+        "demand_score": 62,
+        "social_signal": 50
+    },
+    "technical-writer": {
+        "slug": "technical-writer",
+        "title": "Technical Writer",
+        "category": "Documentation",
+        "description": "Translating complex technical features into clear documentation and tutorials.",
+        "why_now": "Good documentation is the training data for AI; clear docs make tools better.",
+        "core_skills": [
+            "Writing",
+            "Markdown/Git",
+            "API knowledge",
+            "Developer empathy"
+        ],
+        "emerging_skills": [
+            "Documentation-as-Code",
+            "AI-Generated Docs Curation"
+        ],
+        "avg_salary_india": "6 - 22 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "AI can write basic docs, but needs human experts for nuance and accuracy.",
+        "scope": "Product companies, SaaS, Open source",
+        "lifetime": "8+ years",
+        "match_keywords": [
+            "writer",
+            "documentation",
+            "tutorial",
+            "writing",
+            "docs"
+        ],
+        "youtube_resources": [
+            "Write the Docs",
+            "Google Technical Writing"
+        ],
+        "type": "career",
+        "demand_score": 65,
+        "social_signal": 50
+    },
+    "product-manager": {
+        "slug": "product-manager",
+        "title": "Product Manager",
+        "category": "Management & Architecture",
+        "description": "Defining the 'What' and 'Why' of a product, bridging engineering and business.",
+        "why_now": "Product intuition is the most valuable human trait when code becomes a commodity.",
+        "core_skills": [
+            "Agile",
+            "Strategy",
+            "User Research",
+            "Data Interpretation",
+            "Stakeholder Management"
+        ],
+        "emerging_skills": [
+            "AI Product Strategy",
+            "User Experience with LLMs"
+        ],
+        "avg_salary_india": "12 - 50+ LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High-leverage role; focus on 'AI Native' UI patterns and value.",
+        "scope": "Any company building tech products",
+        "lifetime": "Career-long",
+        "match_keywords": [
+            "product manager",
+            "pm",
+            "strategy",
+            "roadmap",
+            "features"
+        ],
+        "youtube_resources": [
+            "Lenny's Podcast",
+            "Product School"
+        ],
+        "type": "career",
+        "demand_score": 90,
+        "social_signal": 50
+    },
+    "engineering-manager": {
+        "slug": "engineering-manager",
+        "title": "Engineering Manager",
+        "category": "Management & Architecture",
+        "description": "Managing people, team dynamics, and technical delivery.",
+        "why_now": "Managing remote AI-powered teams requires new empathy and coordination skills.",
+        "core_skills": [
+            "Leadership",
+            "People Management",
+            "SDLC",
+            "Recruitment",
+            "Conflict Resolution"
+        ],
+        "emerging_skills": [
+            "Team Productivity Metrics (AI-aware)",
+            "Strategic Resource Management"
+        ],
+        "avg_salary_india": "25 - 70+ LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Stable; demand for leaders who understand high-performance engineering culture.",
+        "scope": "Mid to large scale tech companies",
+        "lifetime": "Career-long",
+        "match_keywords": [
+            "manage engineers",
+            "management",
+            "lead",
+            "em",
+            "team lead"
+        ],
+        "youtube_resources": [
+            "The Pragmatic Engineer",
+            "InfoQ Leadership"
+        ],
+        "type": "career",
+        "demand_score": 92,
+        "social_signal": 50
+    },
+    "ux-designer": {
+        "slug": "ux-designer",
+        "title": "UX Designer",
+        "category": "Software Engineering",
+        "description": "Designing how humans interact with digital products.",
+        "why_now": "Traditional UI is boring; 'Generative UI' is the new frontier.",
+        "core_skills": [
+            "Figma",
+            "User Research",
+            "Interaction Design",
+            "Prototyping"
+        ],
+        "emerging_skills": [
+            "Generative UI Design",
+            "Conversational UX"
+        ],
+        "avg_salary_india": "8 - 30 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Focus shifting from 'widgets' to 'experiences'.",
+        "scope": "Design Agencies, Product companies",
+        "lifetime": "10+ years",
+        "match_keywords": [
+            "ux",
+            "design",
+            "figma",
+            "experience",
+            "interaction"
+        ],
+        "youtube_resources": [
+            "Chunbuns",
+            "Flux Academy"
+        ],
+        "type": "career",
+        "demand_score": 78,
+        "social_signal": 50
+    },
+    "blockchain-developer": {
+        "slug": "blockchain-developer",
+        "title": "Blockchain Developer",
+        "category": "Emerging Tech",
+        "description": "Building decentralized applications and smart contracts.",
+        "why_now": "The shift from 'hype' to 'enterprise ledger' infrastructure.",
+        "core_skills": [
+            "Solidity/Rust",
+            "Web3.js",
+            "Cryptography",
+            "Decentralized Storage"
+        ],
+        "emerging_skills": [
+            "Layer 2 Scaling",
+            "Zero Knowledge Proofs"
+        ],
+        "avg_salary_india": "14 - 45 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "Consolidating into high-value infrastructure projects.",
+        "scope": "Crypto Startups, FinTech, Logistics",
+        "lifetime": "8-12 years",
+        "match_keywords": [
+            "blockchain",
+            "crypto",
+            "smart contract",
+            "web3",
+            "solidity"
+        ],
+        "youtube_resources": [
+            "DappUniversity",
+            "EatTheBlocks"
+        ],
+        "type": "career",
+        "demand_score": 70,
+        "social_signal": 50
+    },
+    "ar-vr-developer": {
+        "slug": "ar-vr-developer",
+        "title": "AR/VR Developer",
+        "category": "Emerging Tech",
+        "description": "Creating immersive experiences for headsets and spatial computing.",
+        "why_now": "Apple Vision Pro and Meta Quest 3 have reignited the 'Spatial Computing' market.",
+        "core_skills": [
+            "Unity/Unreal",
+            "C#",
+            "Spatial UI",
+            "Computer Vision"
+        ],
+        "emerging_skills": [
+            "Spatial OS Programming",
+            "Multi-modal Interaction"
+        ],
+        "avg_salary_india": "10 - 28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "High-growth niche; early adoption phase.",
+        "scope": "Entertainment, Training, Industrial Maintenance",
+        "lifetime": "Indefinite (The future of interaction)",
+        "match_keywords": [
+            "ar",
+            "vr",
+            "metaverse",
+            "spatial",
+            "unity",
+            "immersive"
+        ],
+        "youtube_resources": [
+            "Dilmer Valecillos",
+            "Circuit Stream"
+        ],
+        "type": "career",
+        "demand_score": 72,
+        "social_signal": 50
+    },
+    "robotics-automation-engineer": {
+        "slug": "robotics-automation-engineer",
+        "title": "Robotics & Automation Engineer",
+        "category": "Emerging Tech",
+        "description": "Developing software that controls physical robotic systems and autonomous devices.",
+        "why_now": "The physical side of AI \u2014 humanoid robots and warehouse automation are scaling up.",
+        "core_skills": [
+            "ROS (Robot OS)",
+            "C++",
+            "Python",
+            "Sensors",
+            "Control Systems"
+        ],
+        "emerging_skills": [
+            "Physical AI (Foundation Models for Robots)",
+            "Sim-to-Real Transfer"
+        ],
+        "avg_salary_india": "12 - 38 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Hard-tech role with significant barrier to entry.",
+        "scope": "Manufacturing, Logistics, FoodTech, Defense",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "robotics",
+            "automation",
+            "automate",
+            "ros",
+            "embedded",
+            "physical ai"
+        ],
+        "youtube_resources": [
+            "The Construct",
+            "Articulated Robotics"
+        ],
+        "type": "career",
+        "demand_score": 86,
+        "social_signal": 50
+    },
+    "python": {
+        "slug": "python",
+        "title": "Python Language Path",
+        "category": "Skill Path",
+        "description": "Learn the most versatile language used in AI, Data, and Backend.",
+        "why_now": "The undisputed language of the AI era.",
+        "core_skills": [
+            "Basics",
+            "Data Structures",
+            "OOP",
+            "Ecosystem"
+        ],
+        "emerging_skills": [
+            "AI-native Python (FastAPI)",
+            "Concurrency"
+        ],
+        "avg_salary_india": "6 - 25 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Essential for any tech aspirant.",
+        "scope": "Universal",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "python",
+            "scripting",
+            "learn python"
+        ],
+        "youtube_resources": [
+            "Corey Schafer",
+            "Programming With Mosh"
+        ],
+        "type": "skill",
+        "demand_score": 95,
+        "social_signal": 50
+    },
+    "rust": {
+        "slug": "rust",
+        "title": "Rust Language Path",
+        "category": "Skill Path",
+        "description": "Deep-dive into the language of safety, performance, and low-level efficiency.",
+        "why_now": "Replacing C++ for high-performance AI inference and infrastructure.",
+        "core_skills": [
+            "Borrow Checker",
+            "Concurrency",
+            "Crates",
+            "Memory Safety"
+        ],
+        "emerging_skills": [
+            "WebAssembly (WASM)",
+            "Rust for ML"
+        ],
+        "avg_salary_india": "12 - 40 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Loved by developers; used for mission-critical infrastructure.",
+        "scope": "Cloud Infra, OS, Crypto, High-scale APIs",
+        "lifetime": "20+ years",
+        "match_keywords": [
+            "rust",
+            "learn rust",
+            "performance coding"
+        ],
+        "youtube_resources": [
+            "No Boilerplate",
+            "The Rustacean Station"
+        ],
+        "type": "skill",
+        "demand_score": 88,
+        "social_signal": 50
+    },
+    "system-design": {
+        "slug": "system-design",
+        "title": "System Design Path",
+        "category": "Skill Path",
+        "description": "Master the principles of scalable and distributed software architecture.",
+        "why_now": "Infrastructure complexity is the primary bottleneck in large AI products.",
+        "core_skills": [
+            "Scalability",
+            "Load Balancing",
+            "Databases",
+            "Caching",
+            "Latency"
+        ],
+        "emerging_skills": [
+            "Event-driven AI",
+            "Distributed Inference"
+        ],
+        "avg_salary_india": "15 - 50 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "The skill that separates Seniors from Juniors.",
+        "scope": "Enterprise, High-Scale Tech",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "system design",
+            "architecture principles",
+            "how to scale"
+        ],
+        "youtube_resources": [
+            "ByteByteGo",
+            "Gaurav Sen"
+        ],
+        "type": "skill",
+        "demand_score": 97,
+        "social_signal": 50
+    },
+    "prompt-engineering": {
+        "slug": "prompt-engineering",
+        "title": "Prompt Engineering Path",
+        "category": "Skill Path",
+        "description": "Techniques for controlling LLMs through advanced input design.",
+        "why_now": "The fastest way to unlock business value from AI.",
+        "core_skills": [
+            "Chain-of-Thought",
+            "Few-shot prompting",
+            "DSPy",
+            "System Instructions"
+        ],
+        "emerging_skills": [
+            "Automated Prompt Tuning",
+            "Evaluation Frameworks"
+        ],
+        "avg_salary_india": "6 - 20 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Hot but evolving into programmatic tuning.",
+        "scope": "All dev and marketing teams",
+        "lifetime": "5 years",
+        "match_keywords": [
+            "prompt engineering",
+            "how to prompt ai",
+            "better prompts"
+        ],
+        "youtube_resources": [
+            "Andrew Ng",
+            "OpenAI Developers"
+        ],
+        "type": "skill",
+        "demand_score": 82,
+        "social_signal": 50
+    },
+    "ai-agents": {
+        "slug": "ai-agents",
+        "title": "AI Agents & Autonomous Systems",
+        "category": "Skill Path",
+        "description": "Building software that can think, plan, and use tools on its own.",
+        "why_now": "The next evolution from Chatbots to active Agents (AutoGPT, CrewAI).",
+        "core_skills": [
+            "Agent Architecture",
+            "LangGraph",
+            "Tool Use",
+            "Planning"
+        ],
+        "emerging_skills": [
+            "Multi-agent Swarms",
+            "Self-correcting code"
+        ],
+        "avg_salary_india": "15 - 45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Cutting-edge; high value for automation.",
+        "scope": "Automation, Enterprise Workflows",
+        "lifetime": "10+ years",
+        "match_keywords": [
+            "agents",
+            "autonomous",
+            "crewai",
+            "langgraph",
+            "ai systems"
+        ],
+        "youtube_resources": [
+            "Sam Witteveen",
+            "Ai Jason"
+        ],
+        "type": "skill",
+        "demand_score": 96,
+        "social_signal": 50
+    },
+    "vibe-coding": {
+        "slug": "vibe-coding",
+        "title": "Vibe Coding (AI-Native Dev)",
+        "category": "Skill Path",
+        "description": "Mastering high-speed development using AI chat-based coding tools like Cursor.",
+        "why_now": "The revolution in developer productivity \u2014 from 'syntax writing' to 'architecting vibes'.",
+        "core_skills": [
+            "Cursor/Windsurf",
+            "Claude Code",
+            "Iterative Prompting",
+            "Reviewing AI Code"
+        ],
+        "emerging_skills": [
+            "10x Product Engineering",
+            "Context Window Management"
+        ],
+        "avg_salary_india": "10 - 30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "The 2026 standard for high-performance developers.",
+        "scope": "Startups and rapid prototype teams",
+        "lifetime": "Indefinite (The new way to build)",
+        "match_keywords": [
+            "vibe coding",
+            "cursor",
+            "claude code",
+            "ai native development"
+        ],
+        "youtube_resources": [
+            "Andrej Karpathy",
+            "The Primeagen"
+        ],
+        "type": "skill",
+        "demand_score": 88,
+        "social_signal": 50
+    },
+    "go": {
+        "slug": "golang",
+        "title": "Go Language Path",
+        "category": "Skill Path",
+        "description": "Learn the simple, high-performance language behind Docker and Kubernetes.",
+        "why_now": "Cloud-native infrastructure and AI backend scaling require Go's speed.",
+        "core_skills": [
+            "Goroutines",
+            "Interfaces",
+            "Backend patterns",
+            "DevOps integration"
+        ],
+        "emerging_skills": [
+            "Generics in Go",
+            "Go for AI Inference"
+        ],
+        "avg_salary_india": "12 - 35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "The industrial-strength choice for backend systems.",
+        "scope": "Cloud Infrastructure, Distributed Systems",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "go",
+            "golang",
+            "learn go",
+            "google language"
+        ],
+        "youtube_resources": [
+            "Anthony GG",
+            "Nic Jackson"
+        ],
+        "type": "skill",
+        "demand_score": 88,
+        "social_signal": 50
+    },
+    "javascript": {
+        "slug": "javascript",
+        "title": "JavaScript Language Path",
+        "category": "Skill Path",
+        "description": "The language of the web, now running full-scale AI apps in the browser.",
+        "why_now": "Web-based AI interfaces are the primary user touchpoint.",
+        "core_skills": [
+            "DOM",
+            "Async/Await",
+            "Frameworks (React/Vue)",
+            "Browser APIs"
+        ],
+        "emerging_skills": [
+            "Transformers.js",
+            "WebGPU"
+        ],
+        "avg_salary_india": "6 - 22 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Universal foundation; value shifting to AI integration.",
+        "scope": "Frontend, Fullstack, Mobile",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "javascript",
+            "js",
+            "web coding",
+            "frontend"
+        ],
+        "youtube_resources": [
+            "The Net Ninja",
+            "Traversy Media"
+        ],
+        "type": "skill",
+        "demand_score": 84,
+        "social_signal": 50
+    },
+    "typescript": {
+        "slug": "typescript",
+        "title": "TypeScript Language Path",
+        "category": "Skill Path",
+        "description": "JavaScript with types \u2014 the professional standard for high-scale app development.",
+        "why_now": "Scaling large AI products requires the safety and reliability of types.",
+        "core_skills": [
+            "Interfaces",
+            "Generics",
+            "Type Safety",
+            "Tooling"
+        ],
+        "emerging_skills": [
+            "Advanced Type Manipulation"
+        ],
+        "avg_salary_india": "10 - 28 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Replacing raw JavaScript in all serious enterprise products.",
+        "scope": "SaaS, Enterprise Web, Hybrid Mobile",
+        "lifetime": "12+ years",
+        "match_keywords": [
+            "typescript",
+            "ts",
+            "typed javascript"
+        ],
+        "youtube_resources": [
+            "Jack Herrington",
+            "Matt Pocock"
+        ],
+        "type": "skill",
+        "demand_score": 90,
+        "social_signal": 50
+    },
+    "java": {
+        "slug": "java",
+        "title": "Java Language Path",
+        "category": "Skill Path",
+        "description": "The enterprise workhorse used by the world's largest banks and systems.",
+        "why_now": "Modernizing legacy enterprise systems with AI needs Java experts.",
+        "core_skills": [
+            "JVM",
+            "Spring Boot",
+            "Enterprise Patterns",
+            "Multithreading"
+        ],
+        "emerging_skills": [
+            "Java Virtual Threads",
+            "Spring AI"
+        ],
+        "avg_salary_india": "8 - 32 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Rock-solid enterprise demand; high barrier to entry.",
+        "scope": "Banking, Insurance, Big Tech",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "java",
+            "spring boot",
+            "enterprise development",
+            "jvm"
+        ],
+        "youtube_resources": [
+            "Amigoscode",
+            "Baeldung"
+        ],
+        "type": "skill",
+        "demand_score": 82,
+        "social_signal": 50
+    },
+    "cpp": {
+        "slug": "cpp",
+        "title": "C++ Language Path",
+        "category": "Skill Path",
+        "description": "The language of absolute hardware performance and low-level control.",
+        "why_now": "Optimizing LLM inference (llama.cpp) requires deep C++ knowledge.",
+        "core_skills": [
+            "Memory Management",
+            "Pointers",
+            "STL",
+            "Hardware interfacing"
+        ],
+        "emerging_skills": [
+            "C++ for ML Inference",
+            "GPU Programming (CUDA)"
+        ],
+        "avg_salary_india": "12 - 45 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Niche but elite; used when 'speed is everything'.",
+        "scope": "Graphics, FinTech, Robotics, System Dev",
+        "lifetime": "20+ years",
+        "match_keywords": [
+            "c++",
+            "cpp",
+            "low level",
+            "performance"
+        ],
+        "youtube_resources": [
+            "The Cherno",
+            "Derek Banas"
+        ],
+        "type": "skill",
+        "demand_score": 85,
+        "social_signal": 50
+    },
+    "kotlin": {
+        "slug": "kotlin",
+        "title": "Kotlin Language Path",
+        "category": "Skill Path",
+        "description": "Modern language for Android and backend development.",
+        "why_now": "Preferred language for modern mobile AI apps on Android.",
+        "core_skills": [
+            "Coroutines",
+            "Android Studio",
+            "Compose",
+            "JVM integration"
+        ],
+        "emerging_skills": [
+            "Kotlin Multiplatform (KMP)"
+        ],
+        "avg_salary_india": "10 - 28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "The gold standard for Android development.",
+        "scope": "Mobile, Backend",
+        "lifetime": "10+ years",
+        "match_keywords": [
+            "kotlin",
+            "android dev"
+        ],
+        "youtube_resources": [
+            "Philipp Lackner",
+            "CodingWithMitch"
+        ],
+        "type": "skill",
+        "demand_score": 76,
+        "social_signal": 50
+    },
+    "swift": {
+        "slug": "swift",
+        "title": "Swift & SwiftUI Path",
+        "category": "Skill Path",
+        "description": "The beautiful, powerful language for all Apple platforms.",
+        "why_now": "Spatial computing and Apple Intelligence are built on Swift.",
+        "core_skills": [
+            "SwiftUI",
+            "Swift Concurrency",
+            "Apple Frameworks (CoreML)"
+        ],
+        "emerging_skills": [
+            "Apple Vision Pro dev"
+        ],
+        "avg_salary_india": "10 - 35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Strong demand within the high-value Apple ecosystem.",
+        "scope": "iOS, macOS, visionOS",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "swift",
+            "ios dev",
+            "apple",
+            "iphone apps"
+        ],
+        "youtube_resources": [
+            "Hacking with Swift",
+            "Sean Allen"
+        ],
+        "type": "skill",
+        "demand_score": 84,
+        "social_signal": 50
+    },
+    "php": {
+        "slug": "php",
+        "title": "Modern PHP & Laravel",
+        "category": "Skill Path",
+        "description": "Building rapid web applications with the most popular backend language.",
+        "why_now": "Laravel is the best stack for rapid prototyping AI SaaS products.",
+        "core_skills": [
+            "Laravel",
+            "TALL Stack",
+            "MVC",
+            "MySQL"
+        ],
+        "emerging_skills": [
+            "AI-native Laravel tools"
+        ],
+        "avg_salary_india": "5 - 22 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Massive legacy base; perfect for solo entrepreneurs.",
+        "scope": "SaaS, Freelance, Agencies",
+        "lifetime": "8+ years",
+        "match_keywords": [
+            "php",
+            "laravel",
+            "wordpress"
+        ],
+        "youtube_resources": [
+            "Laracasts",
+            "Povilas Korop"
+        ],
+        "type": "skill",
+        "demand_score": 65,
+        "social_signal": 50
+    },
+    "sql": {
+        "slug": "sql",
+        "title": "SQL & Data Management",
+        "category": "Skill Path",
+        "description": "The language of data; mastery of querying and database architecture.",
+        "why_now": "Even AI-native data systems rely on foundational SQL knowledge.",
+        "core_skills": [
+            "Joins",
+            "Optimization",
+            "NoSQL",
+            "Relational design"
+        ],
+        "emerging_skills": [
+            "Vector Extensions for SQL"
+        ],
+        "avg_salary_india": "6 - 25 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Essential literacy for any data/software role.",
+        "scope": "Universal",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "sql",
+            "database",
+            "querying",
+            "postgres",
+            "mysql"
+        ],
+        "youtube_resources": [
+            "Web Dev Simplified",
+            "Alex The Analyst"
+        ],
+        "type": "skill",
+        "demand_score": 90,
+        "social_signal": 50
+    },
+    "docker-k8s": {
+        "slug": "docker-kubernetes",
+        "title": "Docker & Kubernetes Path",
+        "category": "Skill Path",
+        "description": "Mastering containerization and cloud-scale orchestration.",
+        "why_now": "The foundation for deploying AI clusters and scalable Microservices.",
+        "core_skills": [
+            "Containers",
+            "Pods",
+            "K8s Architecture",
+            "Helm"
+        ],
+        "emerging_skills": [
+            "GPU Orchestration in K8s"
+        ],
+        "avg_salary_india": "12 - 40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "The baseline for modern infra jobs.",
+        "scope": "Cloud Tech, Infrastructure",
+        "lifetime": "12+ years",
+        "match_keywords": [
+            "docker",
+            "kubernetes",
+            "k8s",
+            "containers"
+        ],
+        "youtube_resources": [
+            "TechWorld with Nana",
+            "KodeKloud"
+        ],
+        "type": "skill",
+        "demand_score": 94,
+        "social_signal": 50
+    },
+    "aws": {
+        "slug": "aws",
+        "title": "AWS Cloud Mastery",
+        "category": "Skill Path",
+        "description": "Learn the world's most dominant cloud platform.",
+        "why_now": "Most AI production workloads run on AWS Bedrock and Sagemaker.",
+        "core_skills": [
+            "EC2/S3/Lambda",
+            "IAM",
+            "VPC",
+            "Serverless"
+        ],
+        "emerging_skills": [
+            "AWS Bedrock",
+            "Inferentia chips"
+        ],
+        "avg_salary_india": "10 - 45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Most valuable cloud certification on the market.",
+        "scope": "Universal Cloud",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "aws",
+            "cloud",
+            "amazon cloud",
+            "serverless"
+        ],
+        "youtube_resources": [
+            "Adrian Cantrill",
+            "A Cloud Guru"
+        ],
+        "type": "skill",
+        "demand_score": 96,
+        "social_signal": 50
+    },
+    "data-structures": {
+        "slug": "datastructures-and-algorithms",
+        "title": "DSA & CS Fundamentals",
+        "category": "Skill Path",
+        "description": "Master the logic behind efficient computing and high-scale problem-solving.",
+        "why_now": "Syntax changes, but logic and efficiency are forever. FAANG interviews still demand this.",
+        "core_skills": [
+            "Big O",
+            "Trees/Graphs",
+            "DP",
+            "Recursion",
+            "Searching"
+        ],
+        "emerging_skills": [
+            "Optimizing AI Training Algorithms"
+        ],
+        "avg_salary_india": "8 - 50+ LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "The 'Gym' for programmers. Mandatory for top-tier roles.",
+        "scope": "FAANG, Product Tech",
+        "lifetime": "Indefinite",
+        "match_keywords": [
+            "dsa",
+            "leetcode",
+            "algorithms",
+            "cs fundamentals",
+            "computer science"
+        ],
+        "youtube_resources": [
+            "NeetCode",
+            "Abdul Bari"
+        ],
+        "type": "skill",
+        "demand_score": 98,
+        "social_signal": 50
+    },
+    "langchain": {
+        "slug": "langchain-rag",
+        "title": "LangChain & RAG Systems",
+        "category": "Skill Path",
+        "description": "Building knowledge-connected AI apps using Retrieval Augmented Generation.",
+        "why_now": "RAG is the #1 architecture for business AI today.",
+        "core_skills": [
+            "LangChain",
+            "Vector DBs",
+            "Embeddings",
+            "Chain-of-Thought"
+        ],
+        "emerging_skills": [
+            "Multi-modal RAG",
+            "GraphRAG"
+        ],
+        "avg_salary_india": "15 - 45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Current industry gold-rush.",
+        "scope": "Enterprise AI, Chatbots, Search",
+        "lifetime": "8-10 years",
+        "match_keywords": [
+            "langchain",
+            "rag",
+            "vector db",
+            "pinecone",
+            "embeddings"
+        ],
+        "youtube_resources": [
+            "Greg Kamradt",
+            "Full Stack Retrieval"
+        ],
+        "type": "skill",
+        "demand_score": 92,
+        "social_signal": 50
+    },
+    "api-security": {
+        "slug": "api-security",
+        "title": "API Security Path",
+        "category": "Best Practice",
+        "description": "Master the art of securing the communication lines of the modern internet.",
+        "why_now": "AI hacking often targets poorly secured model APIs.",
+        "core_skills": [
+            "OAuth/OpenID",
+            "JWT",
+            "Throttling",
+            "Security Headers",
+            "OWASP API Top 10"
+        ],
+        "emerging_skills": [
+            "AI-native API defense"
+        ],
+        "avg_salary_india": "12 - 35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand in FinTech and Healthcare.",
+        "scope": "Security, Backend",
+        "lifetime": "15+ years",
+        "match_keywords": [
+            "api security",
+            "secure api",
+            "oauth",
+            "jwt"
+        ],
+        "youtube_resources": [
+            "OWASP",
+            "The API Guy"
+        ],
+        "type": "skill",
+        "demand_score": 87,
+        "social_signal": 50
+    }
+}

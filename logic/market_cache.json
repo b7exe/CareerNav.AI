@@ -1,0 +1,3938 @@
+{
+    "ai-engineer": {
+        "title": "AI Engineer",
+        "slug": "ai-engineer",
+        "category": "Role",
+        "description": "Building, integrating and evaluating large language models and intelligent systems.",
+        "why_now": "AI adoption is accelerating across industries in 2026, driving demand for skilled AI engineers",
+        "core_skills": [
+            "AI Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "25-40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Shortage of skilled AI engineers in India and globally, with increasing focus on AI-powered solutions",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years minimum, role evolves but stays relevant",
+        "demand_score": 92,
+        "match_keywords": [
+            "ai engineer",
+            "engineer"
+        ],
+        "youtube_resources": [
+            "AI Engineer Masterclass",
+            "Learn AI Engineer from scratch"
+        ],
+        "roadmap_slug": "ai-engineer",
+        "fastest_path_to_hired": "Master's in AI/ML with specialization in deep learning and NLP",
+        "social_signal": 86,
+        "last_updated": "2026-04-05T13:20:04.447825"
+    },
+    "prompt-engineer": {
+        "title": "Prompt Engineer",
+        "slug": "prompt-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Prompt Engineer focusing on modern best practices.",
+        "why_now": "Rise of chatbots and virtual assistants in 2026 creates a temporary need for prompt engineers",
+        "core_skills": [
+            "Prompt Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "18-28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Emerging field with limited job openings, but growing interest from startups and enterprises",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years then merges into other roles",
+        "demand_score": 70,
+        "match_keywords": [
+            "prompt",
+            "engineer",
+            "prompt ai better",
+            "chatgpt",
+            "prompt engineer"
+        ],
+        "youtube_resources": [
+            "Prompt Engineer Masterclass",
+            "Learn Prompt Engineer from scratch"
+        ],
+        "roadmap_slug": "prompt-engineer",
+        "fastest_path_to_hired": "Online courses in NLP and conversational AI, with a background in linguistics or CS",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:04.940831"
+    },
+    "mlops-engineer": {
+        "title": "MLOps Engineer",
+        "slug": "mlops-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of MLOps Engineer focusing on modern best practices.",
+        "why_now": "MLOps is becoming a critical component of AI adoption in 2026, driving demand for skilled engineers",
+        "core_skills": [
+            "MLOps Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "22-35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Shortage of experienced MLOps engineers in India, with growing demand from AI-focused companies",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-10 years, with increasing focus on automation and efficiency",
+        "demand_score": 81,
+        "match_keywords": [
+            "model deployment",
+            "mlops",
+            "automation and pipelines",
+            "engineer",
+            "mlops engineer"
+        ],
+        "youtube_resources": [
+            "MLOps Engineer Masterclass",
+            "Learn MLOps Engineer from scratch"
+        ],
+        "roadmap_slug": "mlops-engineer",
+        "fastest_path_to_hired": "Certifications in MLOps and cloud computing, with a background in CS or AI",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:05.381822"
+    },
+    "full-stack-developer-ai-native": {
+        "title": "Full Stack Developer (AI-Native)",
+        "slug": "full-stack-developer-ai-native",
+        "category": "Role",
+        "description": "Comprehensive mastery of Full Stack Developer (AI-Native) focusing on modern best practices.",
+        "why_now": "AI-native full-stack development is gaining traction in 2026, driven by the need for intelligent applications",
+        "core_skills": [
+            "Full Stack Developer (AI-Native)",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Growing demand for full-stack developers with AI skills, but increasing competition from automation tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-8 years, with evolving requirements and technologies",
+        "demand_score": 74,
+        "match_keywords": [
+            "full stack developer (ai-native)",
+            "developer",
+            "full",
+            "ai-native",
+            "making apps",
+            "full stack developer ai native",
+            "stack",
+            "full stack",
+            "react node"
+        ],
+        "youtube_resources": [
+            "Full Stack Developer (AI-Native) Masterclass",
+            "Learn Full Stack Developer (AI-Native) from scratch"
+        ],
+        "roadmap_slug": "full-stack",
+        "fastest_path_to_hired": "Online courses in AI-powered web development, with a background in CS or web development",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:05.841824"
+    },
+    "backend-engineer": {
+        "title": "Backend Engineer",
+        "slug": "backend-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Backend Engineer focusing on modern best practices.",
+        "why_now": "Backend engineering is still a critical component of software development in 2026, but AI is changing the landscape",
+        "core_skills": [
+            "Backend Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "18-28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Stable demand for backend engineers, but increasing threat from AI-powered automation tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-6 years, with increasing automation and AI-powered backend development",
+        "demand_score": 67,
+        "match_keywords": [
+            "backend engineer",
+            "engineer",
+            "backend"
+        ],
+        "youtube_resources": [
+            "Backend Engineer Masterclass",
+            "Learn Backend Engineer from scratch"
+        ],
+        "roadmap_slug": "backend",
+        "fastest_path_to_hired": "Online courses in backend development, with a background in CS or software engineering",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:06.321512"
+    },
+    "frontend-developer": {
+        "title": "Frontend Developer",
+        "slug": "frontend-developer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Frontend Developer focusing on modern best practices.",
+        "why_now": "Frontend development is still a critical component of software development in 2026, but AI is changing the landscape",
+        "core_skills": [
+            "Frontend Developer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-25 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Stable demand for frontend developers, but increasing threat from AI-powered automation tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "2-5 years, with increasing focus on AI-powered UI/UX design",
+        "demand_score": 63,
+        "match_keywords": [
+            "frontend developer",
+            "frontend",
+            "developer"
+        ],
+        "youtube_resources": [
+            "Frontend Developer Masterclass",
+            "Learn Frontend Developer from scratch"
+        ],
+        "roadmap_slug": "frontend",
+        "fastest_path_to_hired": "Online courses in frontend development, with a background in CS or web development",
+        "social_signal": 84,
+        "last_updated": "2026-04-05T13:20:06.792705"
+    },
+    "mobile-developer-flutter-react-native": {
+        "title": "Mobile Developer (Flutter/React Native)",
+        "slug": "mobile-developer-flutter-react-native",
+        "category": "Role",
+        "description": "Comprehensive mastery of Mobile Developer (Flutter/React Native) focusing on modern best practices.",
+        "why_now": "Mobile development is still a critical component of software development in 2026, with growing demand for cross-platform solutions",
+        "core_skills": [
+            "Mobile Developer (Flutter/React Native)",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Growing demand for mobile developers with expertise in Flutter and React Native, but increasing competition from low-code tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-8 years, with evolving requirements and technologies",
+        "demand_score": 90,
+        "match_keywords": [
+            "developer",
+            "android",
+            "native",
+            "making apps",
+            "mobile apps",
+            "mobile developer flutter react native",
+            "mobile developer (flutter/react native)",
+            "mobile",
+            "react",
+            "ios",
+            "flutter"
+        ],
+        "youtube_resources": [
+            "Mobile Developer (Flutter/React Native) Masterclass",
+            "Learn Mobile Developer (Flutter/React Native) from scratch"
+        ],
+        "roadmap_slug": "mobile-developer-flutter-react-native",
+        "fastest_path_to_hired": "Online courses in mobile development, with a background in CS or software engineering",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:07.240783"
+    },
+    "cloud-architect": {
+        "title": "Cloud Architect",
+        "slug": "cloud-architect",
+        "category": "Role",
+        "description": "Comprehensive mastery of Cloud Architect focusing on modern best practices.",
+        "why_now": "Cloud adoption is accelerating across industries in 2026, driving demand for skilled cloud architects",
+        "core_skills": [
+            "Cloud Architect",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "30-50 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Shortage of experienced cloud architects in India, with growing demand from cloud-focused companies",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, with increasing complexity and demand for cloud-based solutions",
+        "demand_score": 92,
+        "match_keywords": [
+            "cloud architect",
+            "architect",
+            "cloud"
+        ],
+        "youtube_resources": [
+            "Cloud Architect Masterclass",
+            "Learn Cloud Architect from scratch"
+        ],
+        "roadmap_slug": "cloud-architect",
+        "fastest_path_to_hired": "Certifications in cloud computing, with a background in CS or IT infrastructure",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:07.678755"
+    },
+    "devsecops-engineer": {
+        "title": "DevSecOps Engineer",
+        "slug": "devsecops-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of DevSecOps Engineer focusing on modern best practices.",
+        "why_now": "DevSecOps is becoming a critical component of software development in 2026, driving demand for skilled engineers",
+        "core_skills": [
+            "DevSecOps Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Shortage of experienced DevSecOps engineers in India, with growing demand from security-focused companies",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-14 years, with increasing focus on security and automation",
+        "demand_score": 86,
+        "match_keywords": [
+            "devsecops engineer",
+            "devsecops",
+            "security",
+            "engineer"
+        ],
+        "youtube_resources": [
+            "DevSecOps Engineer Masterclass",
+            "Learn DevSecOps Engineer from scratch"
+        ],
+        "roadmap_slug": "devsecops-engineer",
+        "fastest_path_to_hired": "Certifications in DevSecOps and cloud computing, with a background in CS or IT infrastructure",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:08.146754"
+    },
+    "devops-engineer": {
+        "title": "DevOps Engineer",
+        "slug": "devops-engineer",
+        "category": "Role",
+        "description": "Bridging development and IT operations through CI/CD, automation, and infrastructure as code.",
+        "why_now": "DevOps is still a critical component of software development in 2026, with growing demand for automation and efficiency",
+        "core_skills": [
+            "DevOps Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Growing demand for DevOps engineers, but increasing competition from automation tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-10 years, with evolving requirements and technologies",
+        "demand_score": 82,
+        "match_keywords": [
+            "ci/cd",
+            "devops",
+            "automation and pipelines",
+            "engineer",
+            "devops engineer",
+            "automation"
+        ],
+        "youtube_resources": [
+            "DevOps Engineer Masterclass",
+            "Learn DevOps Engineer from scratch"
+        ],
+        "roadmap_slug": "devops",
+        "fastest_path_to_hired": "Certifications in DevOps and cloud computing, with a background in CS or IT infrastructure",
+        "social_signal": 83,
+        "last_updated": "2026-04-05T13:20:08.570753"
+    },
+    "cybersecurity-analyst": {
+        "title": "Cybersecurity Analyst",
+        "slug": "cybersecurity-analyst",
+        "category": "Role",
+        "description": "Comprehensive mastery of Cybersecurity Analyst focusing on modern best practices.",
+        "why_now": "Rising cyber threats and data breaches necessitate skilled analysts",
+        "core_skills": [
+            "Cybersecurity Analyst",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "18-25 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Indian companies are investing heavily in cybersecurity infrastructure",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, evolving threats keep role relevant",
+        "demand_score": 95,
+        "match_keywords": [
+            "security",
+            "cybersecurity analyst",
+            "infosec",
+            "cybersecurity",
+            "analyst"
+        ],
+        "youtube_resources": [
+            "Cybersecurity Analyst Masterclass",
+            "Learn Cybersecurity Analyst from scratch"
+        ],
+        "roadmap_slug": "cyber-security",
+        "fastest_path_to_hired": "Get CompTIA Security+ certification and build a strong portfolio",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:09.042772"
+    },
+    "penetration-tester": {
+        "title": "Penetration Tester",
+        "slug": "penetration-tester",
+        "category": "Role",
+        "description": "Comprehensive mastery of Penetration Tester focusing on modern best practices.",
+        "why_now": "Companies need experts to simulate cyber attacks and strengthen defenses",
+        "core_skills": [
+            "Penetration Tester",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "22-30 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "India's growing tech industry creates a high demand for penetration testers",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, human intuition remains crucial in penetration testing",
+        "demand_score": 87,
+        "match_keywords": [
+            "pentest",
+            "penetration",
+            "security",
+            "tester",
+            "hacking",
+            "penetration tester"
+        ],
+        "youtube_resources": [
+            "Penetration Tester Masterclass",
+            "Learn Penetration Tester from scratch"
+        ],
+        "roadmap_slug": "penetration-tester",
+        "fastest_path_to_hired": "Obtain OSCP certification and participate in bug bounty programs",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:09.508778"
+    },
+    "data-engineer": {
+        "title": "Data Engineer",
+        "slug": "data-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Data Engineer focusing on modern best practices.",
+        "why_now": "Data-driven decision making requires skilled engineers to design and implement data pipelines",
+        "core_skills": [
+            "Data Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are leveraging big data and cloud computing, creating a high demand for data engineers",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years, automation may replace some tasks but not the role entirely",
+        "demand_score": 90,
+        "match_keywords": [
+            "data",
+            "data engineer",
+            "engineer"
+        ],
+        "youtube_resources": [
+            "Data Engineer Masterclass",
+            "Learn Data Engineer from scratch"
+        ],
+        "roadmap_slug": "data-engineer",
+        "fastest_path_to_hired": "Learn Apache Beam, Spark, and NoSQL databases, and build a personal project",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:09.932752"
+    },
+    "data-scientist": {
+        "title": "Data Scientist",
+        "slug": "data-scientist",
+        "category": "Role",
+        "description": "Comprehensive mastery of Data Scientist focusing on modern best practices.",
+        "why_now": "Businesses need data scientists to extract insights and drive strategic decisions",
+        "core_skills": [
+            "Data Scientist",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "India's data science industry is booming, with a high demand for skilled professionals",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, role evolves with new technologies and techniques",
+        "demand_score": 100,
+        "match_keywords": [
+            "data",
+            "scientist",
+            "data scientist"
+        ],
+        "youtube_resources": [
+            "Data Scientist Masterclass",
+            "Learn Data Scientist from scratch"
+        ],
+        "roadmap_slug": "data-scientist",
+        "fastest_path_to_hired": "Master machine learning algorithms, Python, and R, and participate in Kaggle competitions",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:10.476754"
+    },
+    "data-analyst": {
+        "title": "Data Analyst",
+        "slug": "data-analyst",
+        "category": "Role",
+        "description": "Comprehensive mastery of Data Analyst focusing on modern best practices.",
+        "why_now": "Companies need analysts to interpret data and inform business decisions",
+        "core_skills": [
+            "Data Analyst",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "10-18 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Indian companies are adopting data-driven approaches, but automation is a growing concern",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years, automation may replace some tasks and roles",
+        "demand_score": 80,
+        "match_keywords": [
+            "data",
+            "analyst",
+            "data analyst"
+        ],
+        "youtube_resources": [
+            "Data Analyst Masterclass",
+            "Learn Data Analyst from scratch"
+        ],
+        "roadmap_slug": "data-analyst",
+        "fastest_path_to_hired": "Learn Excel, SQL, and Tableau, and build a strong portfolio",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:10.913856"
+    },
+    "bi-analyst": {
+        "title": "BI Analyst",
+        "slug": "bi-analyst",
+        "category": "Role",
+        "description": "Comprehensive mastery of BI Analyst focusing on modern best practices.",
+        "why_now": "Businesses need analysts to create reports and dashboards, but automation is on the rise",
+        "core_skills": [
+            "BI Analyst",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-15 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "very_high",
+        "situation": "Indian companies are adopting self-service BI tools, reducing the need for human analysts",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years, role may be replaced by automation and AI-powered tools",
+        "demand_score": 70,
+        "match_keywords": [
+            "analyst",
+            "bi analyst"
+        ],
+        "youtube_resources": [
+            "BI Analyst Masterclass",
+            "Learn BI Analyst from scratch"
+        ],
+        "roadmap_slug": "bi-analyst",
+        "fastest_path_to_hired": "Learn Power BI, Tableau, and SQL, and build a strong portfolio",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:11.364160"
+    },
+    "software-architect": {
+        "title": "Software Architect",
+        "slug": "software-architect",
+        "category": "Role",
+        "description": "Comprehensive mastery of Software Architect focusing on modern best practices.",
+        "why_now": "Companies need experts to design and implement software systems",
+        "core_skills": [
+            "Software Architect",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "India's software industry is growing, with a high demand for skilled architects",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, role evolves with new technologies and techniques",
+        "demand_score": 95,
+        "match_keywords": [
+            "software",
+            "software architect",
+            "architect"
+        ],
+        "youtube_resources": [
+            "Software Architect Masterclass",
+            "Learn Software Architect from scratch"
+        ],
+        "roadmap_slug": "software-architect",
+        "fastest_path_to_hired": "Learn cloud computing, microservices, and containerization, and build a personal project",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:11.808102"
+    },
+    "api-design-specialist": {
+        "title": "API Design Specialist",
+        "slug": "api-design-specialist",
+        "category": "Role",
+        "description": "Comprehensive mastery of API Design Specialist focusing on modern best practices.",
+        "why_now": "Companies need experts to design and implement APIs for digital transformation",
+        "core_skills": [
+            "API Design Specialist",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-25 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are adopting API-first approaches, creating a high demand for specialists",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years, automation may replace some tasks but not the role entirely",
+        "demand_score": 76,
+        "match_keywords": [
+            "api design specialist",
+            "specialist",
+            "design",
+            "api"
+        ],
+        "youtube_resources": [
+            "API Design Specialist Masterclass",
+            "Learn API Design Specialist from scratch"
+        ],
+        "roadmap_slug": "api-design-specialist",
+        "fastest_path_to_hired": "Learn API design principles, Swagger, and API security, and build a personal project",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:12.259432"
+    },
+    "game-developer": {
+        "title": "Game Developer",
+        "slug": "game-developer",
+        "category": "Role",
+        "description": "Creating interactive game experiences, physics engines, and graphics rendering.",
+        "why_now": "Gaming industry is growing, but automation and AI-generated content are on the rise",
+        "core_skills": [
+            "Game Developer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-15 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "high",
+        "situation": "Indian gaming industry is still developing, with a limited demand for skilled developers",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years, role may be replaced by automation and AI-powered tools",
+        "demand_score": 49,
+        "match_keywords": [
+            "game developer",
+            "developer",
+            "build game servers",
+            "unreal",
+            "game",
+            "gaming",
+            "unity"
+        ],
+        "youtube_resources": [
+            "Game Developer Masterclass",
+            "Learn Game Developer from scratch"
+        ],
+        "roadmap_slug": "game-developer",
+        "fastest_path_to_hired": "Learn Unity, Unreal Engine, and C++, and build a personal project",
+        "social_signal": 85,
+        "last_updated": "2026-04-05T13:20:12.685374"
+    },
+    "qa-engineer": {
+        "title": "QA Engineer",
+        "slug": "qa-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of QA Engineer focusing on modern best practices.",
+        "why_now": "Companies are adopting automated testing, reducing the need for human QA engineers",
+        "core_skills": [
+            "QA Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "6-12 LPA",
+        "global_demand": "declining",
+        "ai_disruption_risk": "very_high",
+        "situation": "Indian companies are investing in automation and AI-powered testing, replacing human testers",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "2-3 years, automation and AI-powered testing are replacing human testers",
+        "demand_score": 37,
+        "match_keywords": [
+            "testing automation",
+            "tester",
+            "engineer",
+            "quality assurance",
+            "qa engineer"
+        ],
+        "youtube_resources": [
+            "QA Engineer Masterclass",
+            "Learn QA Engineer from scratch"
+        ],
+        "roadmap_slug": "qa-engineer",
+        "fastest_path_to_hired": "Learn Selenium, Appium, and TestNG, and build a strong portfolio",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:13.115424"
+    },
+    "technical-writer": {
+        "title": "Technical Writer",
+        "slug": "technical-writer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Technical Writer focusing on modern best practices.",
+        "why_now": "Companies need to document AI integration processes now",
+        "core_skills": [
+            "Technical Writer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-12 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Technical writing is still necessary but AI is increasingly able to generate basic content",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "4-6 years before AI significantly impacts content creation",
+        "demand_score": 50,
+        "match_keywords": [
+            "writer",
+            "technical writer",
+            "technical"
+        ],
+        "youtube_resources": [
+            "Technical Writer Masterclass",
+            "Learn Technical Writer from scratch"
+        ],
+        "roadmap_slug": "technical-writer",
+        "fastest_path_to_hired": "Build a portfolio of technical blogs and apply for entry-level positions",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:13.546704"
+    },
+    "product-manager": {
+        "title": "Product Manager",
+        "slug": "product-manager",
+        "category": "Role",
+        "description": "Comprehensive mastery of Product Manager focusing on modern best practices.",
+        "why_now": "Product managers are crucial for guiding AI development towards practical applications",
+        "core_skills": [
+            "Product Manager",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to the need for strategic product leadership in AI-driven markets",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, with evolving responsibilities",
+        "demand_score": 81,
+        "match_keywords": [
+            "product manager",
+            "product",
+            "manager"
+        ],
+        "youtube_resources": [
+            "Product Manager Masterclass",
+            "Learn Product Manager from scratch"
+        ],
+        "roadmap_slug": "product-manager",
+        "fastest_path_to_hired": "Gain experience in product development, and pursue an MBA or equivalent",
+        "social_signal": 88,
+        "last_updated": "2026-04-05T13:20:14.001891"
+    },
+    "engineering-manager": {
+        "title": "Engineering Manager",
+        "slug": "engineering-manager",
+        "category": "Role",
+        "description": "Leading teams of engineers, balancing technical debt with product delivery.",
+        "why_now": "Engineering managers are vital for overseeing AI system integration and development",
+        "core_skills": [
+            "Engineering Manager",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "30-45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Critical role in managing teams that develop and implement AI solutions",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, with increasing importance in complex projects",
+        "demand_score": 88,
+        "match_keywords": [
+            "engineering manager",
+            "manager",
+            "engineering",
+            "manage engineers",
+            "leadership"
+        ],
+        "youtube_resources": [
+            "Engineering Manager Masterclass",
+            "Learn Engineering Manager from scratch"
+        ],
+        "roadmap_slug": "engineering-manager",
+        "fastest_path_to_hired": "Rise through engineering ranks, and consider an MS in Engineering Management",
+        "social_signal": 84,
+        "last_updated": "2026-04-05T13:20:14.429263"
+    },
+    "ux-designer": {
+        "title": "UX Designer",
+        "slug": "ux-designer",
+        "category": "Role",
+        "description": "Comprehensive mastery of UX Designer focusing on modern best practices.",
+        "why_now": "User experience is key to making AI-driven products accessible and user-friendly",
+        "core_skills": [
+            "UX Designer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "UX designers are needed to make AI systems more human-centric, but AI may soon aid in design",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-8 years, as AI begins to assist in design processes",
+        "demand_score": 57,
+        "match_keywords": [
+            "ux designer",
+            "designer"
+        ],
+        "youtube_resources": [
+            "UX Designer Masterclass",
+            "Learn UX Designer from scratch"
+        ],
+        "roadmap_slug": "design-system",
+        "fastest_path_to_hired": "Develop a strong portfolio and learn about human-centered design principles",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:14.870577"
+    },
+    "blockchain-developer": {
+        "title": "Blockchain Developer",
+        "slug": "blockchain-developer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Blockchain Developer focusing on modern best practices.",
+        "why_now": "Blockchain and AI convergence is a growing area of interest and investment",
+        "core_skills": [
+            "Blockchain Developer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Blockchain developers are in demand for secure and transparent AI system development",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years, as blockchain technology evolves and expands",
+        "demand_score": 66,
+        "match_keywords": [
+            "blockchain developer",
+            "blockchain",
+            "developer"
+        ],
+        "youtube_resources": [
+            "Blockchain Developer Masterclass",
+            "Learn Blockchain Developer from scratch"
+        ],
+        "roadmap_slug": "blockchain",
+        "fastest_path_to_hired": "Learn blockchain fundamentals, and develop projects showcasing your skills",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:15.344067"
+    },
+    "ar-vr-developer": {
+        "title": "AR/VR Developer",
+        "slug": "ar-vr-developer",
+        "category": "Role",
+        "description": "Comprehensive mastery of AR/VR Developer focusing on modern best practices.",
+        "why_now": "AR/VR technologies are being integrated with AI for more immersive experiences",
+        "core_skills": [
+            "AR/VR Developer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "While in demand, the role may evolve significantly as AI-generated content increases",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years, as AI impacts the creation and implementation of AR/VR experiences",
+        "demand_score": 46,
+        "match_keywords": [
+            "ar/vr developer",
+            "developer",
+            "ar vr developer"
+        ],
+        "youtube_resources": [
+            "AR/VR Developer Masterclass",
+            "Learn AR/VR Developer from scratch"
+        ],
+        "roadmap_slug": "ar-vr-developer",
+        "fastest_path_to_hired": "Develop skills in Unity or Unreal Engine, and build a portfolio of AR/VR projects",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:15.786257"
+    },
+    "robotics--automation-engineer": {
+        "title": "Robotics & Automation Engineer",
+        "slug": "robotics--automation-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Robotics & Automation Engineer focusing on modern best practices.",
+        "why_now": "Robotics and automation are crucial for implementing AI in physical environments",
+        "core_skills": [
+            "Robotics & Automation Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "28-40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to the need for efficient and autonomous systems in various sectors",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, with increasing relevance in manufacturing and service industries",
+        "demand_score": 81,
+        "match_keywords": [
+            "robotics  automation engineer",
+            "robotics",
+            "robotics & automation engineer",
+            "engineer",
+            "automation"
+        ],
+        "youtube_resources": [
+            "Robotics & Automation Engineer Masterclass",
+            "Learn Robotics & Automation Engineer from scratch"
+        ],
+        "roadmap_slug": "robotics--automation-engineer",
+        "fastest_path_to_hired": "Pursue a degree in robotics or a related field, and gain practical experience",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:16.244813"
+    },
+    "ai-red-team-specialist": {
+        "title": "AI Red Team Specialist",
+        "slug": "ai-red-team-specialist",
+        "category": "Role",
+        "description": "Comprehensive mastery of AI Red Team Specialist focusing on modern best practices.",
+        "why_now": "AI red team specialists are essential for identifying and mitigating AI system vulnerabilities",
+        "core_skills": [
+            "AI Red Team Specialist",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "35-50 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Critical role in ensuring the security and reliability of AI systems",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, with continuous evolution to counter new AI threats",
+        "demand_score": 100,
+        "match_keywords": [
+            "defense",
+            "jailbreak",
+            "security",
+            "privacy",
+            "hacker",
+            "specialist",
+            "red",
+            "devsecops",
+            "team",
+            "ai red team specialist",
+            "red team"
+        ],
+        "youtube_resources": [
+            "AI Red Team Specialist Masterclass",
+            "Learn AI Red Team Specialist from scratch"
+        ],
+        "roadmap_slug": "ai-red-team-specialist",
+        "fastest_path_to_hired": "Develop expertise in AI, cybersecurity, and penetration testing",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:16.776306"
+    },
+    "ai-safety--alignment-engineer": {
+        "title": "AI Safety & Alignment Engineer",
+        "slug": "ai-safety--alignment-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of AI Safety & Alignment Engineer focusing on modern best practices.",
+        "why_now": "Ensuring AI safety and alignment with human values is a pressing global concern",
+        "core_skills": [
+            "AI Safety & Alignment Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "40-60 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to the need for experts who can develop safe and ethical AI systems",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, with growing importance as AI becomes more pervasive",
+        "demand_score": 94,
+        "match_keywords": [
+            "ai safety  alignment engineer",
+            "alignment",
+            "ai safety & alignment engineer",
+            "safety",
+            "engineer"
+        ],
+        "youtube_resources": [
+            "AI Safety & Alignment Engineer Masterclass",
+            "Learn AI Safety & Alignment Engineer from scratch"
+        ],
+        "roadmap_slug": "ai-safety--alignment-engineer",
+        "fastest_path_to_hired": "Pursue advanced degrees in AI, ethics, and safety, and participate in relevant research",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:17.247861"
+    },
+    "agentic-system-architect": {
+        "title": "Agentic System Architect",
+        "slug": "agentic-system-architect",
+        "category": "Role",
+        "description": "Comprehensive mastery of Agentic System Architect focusing on modern best practices.",
+        "why_now": "Agentic system architects are needed to design and implement autonomous AI systems",
+        "core_skills": [
+            "Agentic System Architect",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "45-65 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Critical role in the development of sophisticated AI architectures",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, with a focus on designing complex AI systems",
+        "demand_score": 88,
+        "match_keywords": [
+            "agentic system architect",
+            "autogpt",
+            "crewai",
+            "architect",
+            "agents",
+            "system",
+            "agentic",
+            "babyagi"
+        ],
+        "youtube_resources": [
+            "Agentic System Architect Masterclass",
+            "Learn Agentic System Architect from scratch"
+        ],
+        "roadmap_slug": "agentic-system-architect",
+        "fastest_path_to_hired": "Gain expertise in AI, system architecture, and software engineering, and build a portfolio of complex projects",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:17.801096"
+    },
+    "rag-systems-engineer": {
+        "title": "RAG Systems Engineer",
+        "slug": "rag-systems-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of RAG Systems Engineer focusing on modern best practices.",
+        "why_now": "RAG systems engineers are needed to manage AI tooling complexity in 2026",
+        "core_skills": [
+            "RAG Systems Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "High demand due to AI adoption, but AI may replace some tasks",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-9 years before AI handles complex systems",
+        "demand_score": 90,
+        "match_keywords": [
+            "systems",
+            "pinecone",
+            "vector db",
+            "rag",
+            "llamaindex",
+            "rag systems engineer",
+            "engineer",
+            "retrieval augmented generation"
+        ],
+        "youtube_resources": [
+            "RAG Systems Engineer Masterclass",
+            "Learn RAG Systems Engineer from scratch"
+        ],
+        "roadmap_slug": "rag-systems-engineer",
+        "fastest_path_to_hired": "Get certified in RAG systems and AI tooling, build a portfolio of projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:18.236960"
+    },
+    "llm-security-researcher": {
+        "title": "LLM Security Researcher",
+        "slug": "llm-security-researcher",
+        "category": "Role",
+        "description": "Comprehensive mastery of LLM Security Researcher focusing on modern best practices.",
+        "why_now": "LLM security researchers are crucial to prevent AI-powered attacks in 2026",
+        "core_skills": [
+            "LLM Security Researcher",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "40-60 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to increasing AI-powered threats, limited supply of experts",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-14 years, role evolves with new AI threats",
+        "demand_score": 100,
+        "match_keywords": [
+            "defense",
+            "jailbreak",
+            "security",
+            "privacy",
+            "hacker",
+            "researcher",
+            "llm",
+            "devsecops",
+            "red team",
+            "llm security researcher"
+        ],
+        "youtube_resources": [
+            "LLM Security Researcher Masterclass",
+            "Learn LLM Security Researcher from scratch"
+        ],
+        "roadmap_slug": "llm-security-researcher",
+        "fastest_path_to_hired": "Pursue a master's in AI security, publish research papers on LLM security",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:18.662731"
+    },
+    "synthetic-data-engineer": {
+        "title": "Synthetic Data Engineer",
+        "slug": "synthetic-data-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Synthetic Data Engineer focusing on modern best practices.",
+        "why_now": "Synthetic data engineers are needed to support AI model training in 2026",
+        "core_skills": [
+            "Synthetic Data Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Medium demand, but AI may replace some tasks, limiting lifetime",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "4-7 years before AI generates synthetic data autonomously",
+        "demand_score": 66,
+        "match_keywords": [
+            "synthetic data engineer",
+            "engineer",
+            "synthetic",
+            "data"
+        ],
+        "youtube_resources": [
+            "Synthetic Data Engineer Masterclass",
+            "Learn Synthetic Data Engineer from scratch"
+        ],
+        "roadmap_slug": "synthetic-data-engineer",
+        "fastest_path_to_hired": "Learn synthetic data generation techniques, work on projects with AI models",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:19.102621"
+    },
+    "spatial-computing-developer": {
+        "title": "Spatial Computing Developer",
+        "slug": "spatial-computing-developer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Spatial Computing Developer focusing on modern best practices.",
+        "why_now": "Spatial computing developers are needed for emerging AR/VR applications in 2026",
+        "core_skills": [
+            "Spatial Computing Developer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "30-45 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "High demand due to growing AR/VR market, but AI may replace some tasks",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, role evolves with new spatial computing applications",
+        "demand_score": 95,
+        "match_keywords": [
+            "developer",
+            "computing",
+            "spatial",
+            "spatial computing developer"
+        ],
+        "youtube_resources": [
+            "Spatial Computing Developer Masterclass",
+            "Learn Spatial Computing Developer from scratch"
+        ],
+        "roadmap_slug": "spatial-computing-developer",
+        "fastest_path_to_hired": "Get certified in spatial computing, build a portfolio of AR/VR projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:19.545071"
+    },
+    "edge-ai-systems-engineer": {
+        "title": "Edge AI Systems Engineer",
+        "slug": "edge-ai-systems-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Edge AI Systems Engineer focusing on modern best practices.",
+        "why_now": "Edge AI systems engineers are crucial for deploying AI at the edge in 2026",
+        "core_skills": [
+            "Edge AI Systems Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "45-70 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to growing edge AI market, limited supply of experts",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, role evolves with new edge AI applications",
+        "demand_score": 98,
+        "match_keywords": [
+            "edge",
+            "systems",
+            "edge ai systems engineer",
+            "engineer"
+        ],
+        "youtube_resources": [
+            "Edge AI Systems Engineer Masterclass",
+            "Learn Edge AI Systems Engineer from scratch"
+        ],
+        "roadmap_slug": "edge-ai-systems-engineer",
+        "fastest_path_to_hired": "Pursue a master's in edge AI, work on projects with edge AI deployments",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:19.978488"
+    },
+    "prompt-security-analyst": {
+        "title": "Prompt Security Analyst",
+        "slug": "prompt-security-analyst",
+        "category": "Role",
+        "description": "Comprehensive mastery of Prompt Security Analyst focusing on modern best practices.",
+        "why_now": "Prompt security analysts are needed to prevent AI-powered attacks in 2026, but AI may replace them soon",
+        "core_skills": [
+            "Prompt Security Analyst",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "15-25 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "very_high",
+        "situation": "Low demand, and AI may replace some tasks, limiting lifetime",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "2-4 years before AI handles prompt security autonomously",
+        "demand_score": 70,
+        "match_keywords": [
+            "defense",
+            "jailbreak",
+            "security",
+            "privacy",
+            "hacker",
+            "prompt security analyst",
+            "prompt",
+            "devsecops",
+            "red team",
+            "analyst"
+        ],
+        "youtube_resources": [
+            "Prompt Security Analyst Masterclass",
+            "Learn Prompt Security Analyst from scratch"
+        ],
+        "roadmap_slug": "prompt-security-analyst",
+        "fastest_path_to_hired": "Learn prompt security techniques, work on projects with AI models",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:20.408628"
+    },
+    "data-privacy-engineer": {
+        "title": "Data Privacy Engineer",
+        "slug": "data-privacy-engineer",
+        "category": "Role",
+        "description": "Comprehensive mastery of Data Privacy Engineer focusing on modern best practices.",
+        "why_now": "Data privacy engineers are needed to ensure AI systems comply with regulations in 2026",
+        "core_skills": [
+            "Data Privacy Engineer",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "30-45 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "High demand due to growing data privacy concerns, but AI may replace some tasks",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, role evolves with new data privacy regulations",
+        "demand_score": 90,
+        "match_keywords": [
+            "defense",
+            "jailbreak",
+            "security",
+            "privacy",
+            "hacker",
+            "devsecops",
+            "engineer",
+            "data",
+            "red team",
+            "data privacy engineer"
+        ],
+        "youtube_resources": [
+            "Data Privacy Engineer Masterclass",
+            "Learn Data Privacy Engineer from scratch"
+        ],
+        "roadmap_slug": "data-privacy-engineer",
+        "fastest_path_to_hired": "Get certified in data privacy, build a portfolio of projects with AI systems",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:20.849302"
+    },
+    "quantum-machine-learning-researcher": {
+        "title": "Quantum Machine Learning Researcher",
+        "slug": "quantum-machine-learning-researcher",
+        "category": "Role",
+        "description": "Comprehensive mastery of Quantum Machine Learning Researcher focusing on modern best practices.",
+        "why_now": "Quantum machine learning researchers are crucial for developing next-gen AI in 2026",
+        "core_skills": [
+            "Quantum Machine Learning Researcher",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "60-100 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to growing quantum AI market, limited supply of experts",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "15-20 years, role evolves with new quantum AI breakthroughs",
+        "demand_score": 100,
+        "match_keywords": [
+            "researcher",
+            "quantum machine learning researcher",
+            "learning",
+            "machine",
+            "physics",
+            "quantum",
+            "qiskit"
+        ],
+        "youtube_resources": [
+            "Quantum Machine Learning Researcher Masterclass",
+            "Learn Quantum Machine Learning Researcher from scratch"
+        ],
+        "roadmap_slug": "quantum-machine-learning-researcher",
+        "fastest_path_to_hired": "Pursue a Ph.D. in quantum machine learning, publish research papers on quantum AI",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:21.297039"
+    },
+    "python": {
+        "title": "Python",
+        "slug": "python",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of Python focusing on modern best practices.",
+        "why_now": "Python developers are still needed for various applications in 2026, but AI may replace them soon",
+        "core_skills": [
+            "Python",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "10-20 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Medium demand, but AI may replace some tasks, limiting lifetime",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-6 years before AI handles Python development autonomously",
+        "demand_score": 60,
+        "match_keywords": [
+            "python"
+        ],
+        "youtube_resources": [
+            "Python Masterclass",
+            "Learn Python from scratch"
+        ],
+        "roadmap_slug": "python",
+        "fastest_path_to_hired": "Learn Python, work on projects with AI models",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:21.747576"
+    },
+    "javascript": {
+        "title": "JavaScript",
+        "slug": "javascript",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of JavaScript focusing on modern best practices.",
+        "why_now": "JavaScript developers are still needed for web development in 2026, but AI may replace them soon",
+        "core_skills": [
+            "JavaScript",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-15 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "very_high",
+        "situation": "Low demand, and AI may replace some tasks, limiting lifetime",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "2-4 years before AI handles JavaScript development autonomously",
+        "demand_score": 50,
+        "match_keywords": [
+            "javascript"
+        ],
+        "youtube_resources": [
+            "JavaScript Masterclass",
+            "Learn JavaScript from scratch"
+        ],
+        "roadmap_slug": "javascript",
+        "fastest_path_to_hired": "Learn JavaScript, work on web development projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:22.204576"
+    },
+    "typescript": {
+        "title": "TypeScript",
+        "slug": "typescript",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of TypeScript focusing on modern best practices.",
+        "why_now": "TypeScript's versatility and AI integration capabilities make it a top choice for 2026 projects",
+        "core_skills": [
+            "TypeScript",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "18-25 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Indian startups and MNCs are rapidly adopting TypeScript for large-scale applications",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, evolves with AI tooling",
+        "demand_score": 87,
+        "match_keywords": [
+            "typescript"
+        ],
+        "youtube_resources": [
+            "TypeScript Masterclass",
+            "Learn TypeScript from scratch"
+        ],
+        "roadmap_slug": "typescript",
+        "fastest_path_to_hired": "Build personal projects showcasing TypeScript expertise and apply for junior developer roles",
+        "social_signal": 89,
+        "last_updated": "2026-04-05T13:20:22.714803"
+    },
+    "java": {
+        "title": "Java",
+        "slug": "java",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of Java focusing on modern best practices.",
+        "why_now": "Java's widespread adoption and AI-driven updates ensure its relevance in 2026",
+        "core_skills": [
+            "Java",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian IT giants and global corporations continue to rely on Java for critical applications",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-10 years, still relevant but with evolving requirements",
+        "demand_score": 80,
+        "match_keywords": [
+            "java"
+        ],
+        "youtube_resources": [
+            "Java Masterclass",
+            "Learn Java from scratch"
+        ],
+        "roadmap_slug": "java",
+        "fastest_path_to_hired": "Develop a strong foundation in Java fundamentals and pursue certifications like Oracle Certified Java Programmer",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:23.258303"
+    },
+    "c++": {
+        "title": "C++",
+        "slug": "c++",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of C++ focusing on modern best practices.",
+        "why_now": "C++'s performance capabilities make it essential for 2026's demanding applications, including AI and gaming",
+        "core_skills": [
+            "C++",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "Indian companies and global leaders in gaming, finance, and AI rely on C++ for core development",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years, remains crucial for high-performance applications",
+        "demand_score": 70,
+        "match_keywords": [
+            "c++"
+        ],
+        "youtube_resources": [
+            "C++ Masterclass",
+            "Learn C++ from scratch"
+        ],
+        "roadmap_slug": "cpp",
+        "fastest_path_to_hired": "Master C++ fundamentals, focus on high-performance computing, and network with professionals in the field",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:23.931022"
+    },
+    "rust": {
+        "title": "Rust",
+        "slug": "rust",
+        "category": "Skill: Languages",
+        "description": "A systems programming language focused on safety, speed, and concurrency.",
+        "why_now": "Rust's memory safety features and performance make it a prime choice for 2026's systems programming needs",
+        "core_skills": [
+            "Rust",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Indian startups and global tech leaders are increasingly adopting Rust for building secure and efficient systems",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-18 years, growing importance in systems programming",
+        "demand_score": 78,
+        "match_keywords": [
+            "systems programming",
+            "rust",
+            "memory safety"
+        ],
+        "youtube_resources": [
+            "Rust Masterclass",
+            "Learn Rust from scratch"
+        ],
+        "roadmap_slug": "rust",
+        "fastest_path_to_hired": "Contribute to open-source Rust projects and develop a deep understanding of systems programming principles",
+        "social_signal": 83,
+        "last_updated": "2026-04-05T13:20:24.446801"
+    },
+    "go": {
+        "title": "Go",
+        "slug": "go",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of Go focusing on modern best practices.",
+        "why_now": "Go's simplicity, performance, and concurrency features make it ideal for 2026's cloud and networked applications",
+        "core_skills": [
+            "Go",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-28 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Indian companies and global leaders in cloud computing, networking, and DevOps rely on Go for critical infrastructure",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years, remains relevant for networked applications",
+        "demand_score": 85,
+        "match_keywords": [
+            "go"
+        ],
+        "youtube_resources": [
+            "Go Masterclass",
+            "Learn Go from scratch"
+        ],
+        "roadmap_slug": "golang",
+        "fastest_path_to_hired": "Develop a strong foundation in Go fundamentals, focus on cloud and network programming, and build personal projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:24.882299"
+    },
+    "php": {
+        "title": "PHP",
+        "slug": "php",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of PHP focusing on modern best practices.",
+        "why_now": "PHP's declining popularity and AI-driven web development alternatives make it less desirable in 2026",
+        "core_skills": [
+            "PHP",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "10-18 LPA",
+        "global_demand": "declining",
+        "ai_disruption_risk": "high",
+        "situation": "Indian web development market is shifting towards more modern and efficient technologies, leaving PHP with limited scope",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-6 years, rapidly declining due to AI-driven alternatives",
+        "demand_score": 50,
+        "match_keywords": [
+            "php"
+        ],
+        "youtube_resources": [
+            "PHP Masterclass",
+            "Learn PHP from scratch"
+        ],
+        "roadmap_slug": "php",
+        "fastest_path_to_hired": "Upskill to more modern web development technologies like JavaScript frameworks or Python-based web development",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:25.324303"
+    },
+    "kotlin": {
+        "title": "Kotlin",
+        "slug": "kotlin",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of Kotlin focusing on modern best practices.",
+        "why_now": "Kotlin's growing adoption in Android app development and AI-driven mobile applications make it a viable choice for 2026",
+        "core_skills": [
+            "Kotlin",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian mobile app development companies and global Android app developers rely on Kotlin for building modern mobile applications",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-10 years, remains relevant for Android app development",
+        "demand_score": 63,
+        "match_keywords": [
+            "kotlin"
+        ],
+        "youtube_resources": [
+            "Kotlin Masterclass",
+            "Learn Kotlin from scratch"
+        ],
+        "roadmap_slug": "kotlin",
+        "fastest_path_to_hired": "Develop a strong foundation in Kotlin fundamentals, focus on Android app development, and build personal projects",
+        "social_signal": 84,
+        "last_updated": "2026-04-05T13:20:25.764079"
+    },
+    "scala": {
+        "title": "Scala",
+        "slug": "scala",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of Scala focusing on modern best practices.",
+        "why_now": "Scala's unique features and AI-driven big data applications make it a niche but still relevant choice for 2026",
+        "core_skills": [
+            "Scala",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "18-25 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies and global leaders in big data, machine learning, and AI rely on Scala for specific use cases",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-9 years, niche but still relevant for certain applications",
+        "demand_score": 65,
+        "match_keywords": [
+            "scala"
+        ],
+        "youtube_resources": [
+            "Scala Masterclass",
+            "Learn Scala from scratch"
+        ],
+        "roadmap_slug": "scala",
+        "fastest_path_to_hired": "Master Scala fundamentals, focus on big data and machine learning, and network with professionals in the field",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:26.233530"
+    },
+    "swift": {
+        "title": "Swift",
+        "slug": "swift",
+        "category": "Skill: Languages",
+        "description": "Comprehensive mastery of Swift focusing on modern best practices.",
+        "why_now": "Swift's growing importance in iOS and macOS app development, combined with AI-driven mobile applications, make it a top choice for 2026",
+        "core_skills": [
+            "Swift",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-28 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Indian mobile app development companies and global iOS and macOS app developers rely on Swift for building modern mobile applications",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, remains crucial for iOS and macOS app development",
+        "demand_score": 80,
+        "match_keywords": [
+            "swift"
+        ],
+        "youtube_resources": [
+            "Swift Masterclass",
+            "Learn Swift from scratch"
+        ],
+        "roadmap_slug": "swift",
+        "fastest_path_to_hired": "Develop a strong foundation in Swift fundamentals, focus on iOS and macOS app development, and build personal projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:26.663374"
+    },
+    "react": {
+        "title": "React",
+        "slug": "react",
+        "category": "Skill: Frontend Frameworks",
+        "description": "Comprehensive mastery of React focusing on modern best practices.",
+        "why_now": "React's versatility, performance, and AI-driven web development capabilities make it a prime choice for 2026's web applications",
+        "core_skills": [
+            "React",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Indian web development companies and global leaders in web development rely on React for building modern, efficient, and scalable web applications",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years, remains essential for modern web development",
+        "demand_score": 100,
+        "match_keywords": [
+            "react"
+        ],
+        "youtube_resources": [
+            "React Masterclass",
+            "Learn React from scratch"
+        ],
+        "roadmap_slug": "react",
+        "fastest_path_to_hired": "Master React fundamentals, focus on modern web development principles, and build personal projects showcasing React expertise",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:27.109271"
+    },
+    "vue": {
+        "title": "Vue",
+        "slug": "vue",
+        "category": "Skill: Frontend Frameworks",
+        "description": "Comprehensive mastery of Vue focusing on modern best practices.",
+        "why_now": "Vue's adoption in enterprise applications is driving demand in 2026",
+        "core_skills": [
+            "Vue",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-12 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Competition from React and Angular, but still a viable choice for complex UIs",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years before AI handles most tasks",
+        "demand_score": 70,
+        "match_keywords": [
+            "vue"
+        ],
+        "youtube_resources": [
+            "Vue Masterclass",
+            "Learn Vue from scratch"
+        ],
+        "roadmap_slug": "vue",
+        "fastest_path_to_hired": "Build personal projects showcasing Vue expertise and contribute to open-source projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:27.565933"
+    },
+    "angular": {
+        "title": "Angular",
+        "slug": "angular",
+        "category": "Skill: Frontend Frameworks",
+        "description": "Comprehensive mastery of Angular focusing on modern best practices.",
+        "why_now": "Angular's strong enterprise presence and regular updates ensure its relevance in 2026",
+        "core_skills": [
+            "Angular",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Established player with a large community, but requires continuous skill updates",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years with evolving responsibilities",
+        "demand_score": 83,
+        "match_keywords": [
+            "angular"
+        ],
+        "youtube_resources": [
+            "Angular Masterclass",
+            "Learn Angular from scratch"
+        ],
+        "roadmap_slug": "angular",
+        "fastest_path_to_hired": "Get certified in Angular and build a portfolio of complex applications",
+        "social_signal": 90,
+        "last_updated": "2026-04-05T13:20:28.051926"
+    },
+    "nextjs": {
+        "title": "Next.js",
+        "slug": "nextjs",
+        "category": "Skill: Frontend Frameworks",
+        "description": "Comprehensive mastery of Next.js focusing on modern best practices.",
+        "why_now": "Next.js is leading the server-side rendering and static site generation trend in 2026",
+        "core_skills": [
+            "Next.js",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to its performance and SEO benefits, with a large and active community",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years with growing importance in web development",
+        "demand_score": 88,
+        "match_keywords": [
+            "nextjs",
+            "next.js"
+        ],
+        "youtube_resources": [
+            "Next.js Masterclass",
+            "Learn Next.js from scratch"
+        ],
+        "roadmap_slug": "nextjs",
+        "fastest_path_to_hired": "Master Next.js and React, and showcase expertise in building fast and scalable web applications",
+        "social_signal": 84,
+        "last_updated": "2026-04-05T13:20:28.490778"
+    },
+    "svelte": {
+        "title": "Svelte",
+        "slug": "svelte",
+        "category": "Skill: Frontend Frameworks",
+        "description": "Comprehensive mastery of Svelte focusing on modern best practices.",
+        "why_now": "Svelte's compact size and simplicity attract some developers, but its niche status limits growth in 2026",
+        "core_skills": [
+            "Svelte",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "6-10 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "high",
+        "situation": "Struggles to compete with more established frameworks like React and Angular",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years before potential decline",
+        "demand_score": 38,
+        "match_keywords": [
+            "svelte"
+        ],
+        "youtube_resources": [
+            "Svelte Masterclass",
+            "Learn Svelte from scratch"
+        ],
+        "roadmap_slug": "svelte",
+        "fastest_path_to_hired": "Contribute to Svelte's ecosystem and build innovative applications to stand out",
+        "social_signal": 83,
+        "last_updated": "2026-04-05T13:20:28.928916"
+    },
+    "nodejs": {
+        "title": "Node.js",
+        "slug": "nodejs",
+        "category": "Skill: Backend Frameworks",
+        "description": "Comprehensive mastery of Node.js focusing on modern best practices.",
+        "why_now": "Node.js dominates the backend development landscape in 2026, with a vast ecosystem",
+        "core_skills": [
+            "Node.js",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "14-20 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "Unchallenged leader in real-time web applications, with a large and active community",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years with expanding use cases",
+        "demand_score": 92,
+        "match_keywords": [
+            "node.js",
+            "nodejs"
+        ],
+        "youtube_resources": [
+            "Node.js Masterclass",
+            "Learn Node.js from scratch"
+        ],
+        "roadmap_slug": "nodejs",
+        "fastest_path_to_hired": "Master Node.js, Express.js, and MongoDB, and build scalable and performant backend applications",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:29.389688"
+    },
+    "django": {
+        "title": "Django",
+        "slug": "django",
+        "category": "Skill: Backend Frameworks",
+        "description": "Comprehensive mastery of Django focusing on modern best practices.",
+        "why_now": "Django's high-level framework and rapid development capabilities make it a popular choice in 2026",
+        "core_skills": [
+            "Django",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "10-15 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Established player in Python web development, with a large and active community",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "7-9 years with potential for evolution",
+        "demand_score": 73,
+        "match_keywords": [
+            "django"
+        ],
+        "youtube_resources": [
+            "Django Masterclass",
+            "Learn Django from scratch"
+        ],
+        "roadmap_slug": "django",
+        "fastest_path_to_hired": "Get proficient in Django, Python, and databases, and build complex web applications",
+        "social_signal": 90,
+        "last_updated": "2026-04-05T13:20:29.817201"
+    },
+    "fastapi": {
+        "title": "FastAPI",
+        "slug": "fastapi",
+        "category": "Skill: Backend Frameworks",
+        "description": "Comprehensive mastery of FastAPI focusing on modern best practices.",
+        "why_now": "FastAPI's modern design and high-performance capabilities drive its adoption in 2026",
+        "core_skills": [
+            "FastAPI",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Rapidly gaining popularity due to its simplicity, speed, and robustness",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "9-11 years with growing importance in API development",
+        "demand_score": 76,
+        "match_keywords": [
+            "fastapi"
+        ],
+        "youtube_resources": [
+            "FastAPI Masterclass",
+            "Learn FastAPI from scratch"
+        ],
+        "roadmap_slug": "fastapi",
+        "fastest_path_to_hired": "Master FastAPI, Python, and API design principles, and build high-performance APIs",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:30.255724"
+    },
+    "spring-boot": {
+        "title": "Spring Boot",
+        "slug": "spring-boot",
+        "category": "Skill: Backend Frameworks",
+        "description": "Comprehensive mastery of Spring Boot focusing on modern best practices.",
+        "why_now": "Spring Boot's simplicity and ease of use make it a popular choice for enterprise applications in 2026",
+        "core_skills": [
+            "Spring Boot",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "11-16 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Established player in Java ecosystem, with a large and active community",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years with potential for evolution",
+        "demand_score": 85,
+        "match_keywords": [
+            "boot",
+            "spring",
+            "spring boot"
+        ],
+        "youtube_resources": [
+            "Spring Boot Masterclass",
+            "Learn Spring Boot from scratch"
+        ],
+        "roadmap_slug": "spring-boot",
+        "fastest_path_to_hired": "Get proficient in Spring Boot, Java, and cloud platforms, and build scalable enterprise applications",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:30.698684"
+    },
+    "laravel": {
+        "title": "Laravel",
+        "slug": "laravel",
+        "category": "Skill: Backend Frameworks",
+        "description": "Comprehensive mastery of Laravel focusing on modern best practices.",
+        "why_now": "Laravel's simplicity and ease of use attract some developers, but its PHP base limits growth in 2026",
+        "core_skills": [
+            "Laravel",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-12 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Struggles to compete with more modern frameworks like Node.js and Django",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years before potential decline",
+        "demand_score": 59,
+        "match_keywords": [
+            "laravel"
+        ],
+        "youtube_resources": [
+            "Laravel Masterclass",
+            "Learn Laravel from scratch"
+        ],
+        "roadmap_slug": "laravel",
+        "fastest_path_to_hired": "Master Laravel, PHP, and MySQL, and build complex web applications",
+        "social_signal": 85,
+        "last_updated": "2026-04-05T13:20:31.135356"
+    },
+    "expressjs": {
+        "title": "Express.js",
+        "slug": "expressjs",
+        "category": "Skill: Backend Frameworks",
+        "description": "Comprehensive mastery of Express.js focusing on modern best practices.",
+        "why_now": "Express.js is a fundamental part of the Node.js ecosystem, driving its demand in 2026",
+        "core_skills": [
+            "Express.js",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Unchallenged leader in Node.js web development, with a large and active community",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "9-11 years with growing importance in Node.js ecosystem",
+        "demand_score": 76,
+        "match_keywords": [
+            "express.js",
+            "expressjs"
+        ],
+        "youtube_resources": [
+            "Express.js Masterclass",
+            "Learn Express.js from scratch"
+        ],
+        "roadmap_slug": "expressjs",
+        "fastest_path_to_hired": "Master Express.js, Node.js, and MongoDB, and build scalable and performant web applications",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:31.585139"
+    },
+    "sql": {
+        "title": "SQL",
+        "slug": "sql",
+        "category": "Skill: Databases",
+        "description": "Comprehensive mastery of SQL focusing on modern best practices.",
+        "why_now": "SQL skills are still essential for data analysis and management in 2026",
+        "core_skills": [
+            "SQL",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-12 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "High demand due to increasing data-driven decision-making",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years before AI significantly impacts",
+        "demand_score": 90,
+        "match_keywords": [
+            "sql"
+        ],
+        "youtube_resources": [
+            "SQL Masterclass",
+            "Learn SQL from scratch"
+        ],
+        "roadmap_slug": "sql",
+        "fastest_path_to_hired": "Learn SQL basics, practice with real-world datasets, and get certified",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:32.060833"
+    },
+    "postgresql": {
+        "title": "PostgreSQL",
+        "slug": "postgresql",
+        "category": "Skill: Databases",
+        "description": "Comprehensive mastery of PostgreSQL focusing on modern best practices.",
+        "why_now": "PostgreSQL's reliability and customizability make it a top choice in 2026",
+        "core_skills": [
+            "PostgreSQL",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "10-15 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "Stable demand due to its widespread adoption in enterprise environments",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years as a reliable database management system",
+        "demand_score": 72,
+        "match_keywords": [
+            "postgresql"
+        ],
+        "youtube_resources": [
+            "PostgreSQL Masterclass",
+            "Learn PostgreSQL from scratch"
+        ],
+        "roadmap_slug": "postgresql",
+        "fastest_path_to_hired": "Master PostgreSQL administration, learn SQL, and gain experience with database modeling",
+        "social_signal": 89,
+        "last_updated": "2026-04-05T13:20:32.534916"
+    },
+    "mongodb": {
+        "title": "MongoDB",
+        "slug": "mongodb",
+        "category": "Skill: Databases",
+        "description": "Comprehensive mastery of MongoDB focusing on modern best practices.",
+        "why_now": "MongoDB's NoSQL capabilities are crucial for modern web applications in 2026",
+        "core_skills": [
+            "MongoDB",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "medium",
+        "situation": "High demand due to the growing need for flexible and scalable data storage",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-8 years before NoSQL databases evolve further",
+        "demand_score": 85,
+        "match_keywords": [
+            "mongodb"
+        ],
+        "youtube_resources": [
+            "MongoDB Masterclass",
+            "Learn MongoDB from scratch"
+        ],
+        "roadmap_slug": "mongodb",
+        "fastest_path_to_hired": "Learn MongoDB basics, practice with real-world projects, and get certified in NoSQL databases",
+        "social_signal": 85,
+        "last_updated": "2026-04-05T13:20:32.959511"
+    },
+    "redis": {
+        "title": "Redis",
+        "slug": "redis",
+        "category": "Skill: Databases",
+        "description": "Comprehensive mastery of Redis focusing on modern best practices.",
+        "why_now": "Redis's performance and simplicity make it a top choice for caching and messaging in 2026",
+        "core_skills": [
+            "Redis",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "9-14 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "low",
+        "situation": "Stable demand due to its widespread adoption in real-time web applications",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "7-9 years as an in-memory data store",
+        "demand_score": 70,
+        "match_keywords": [
+            "redis"
+        ],
+        "youtube_resources": [
+            "Redis Masterclass",
+            "Learn Redis from scratch"
+        ],
+        "roadmap_slug": "redis",
+        "fastest_path_to_hired": "Master Redis administration, learn data structures, and gain experience with caching mechanisms",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:33.414950"
+    },
+    "mysql": {
+        "title": "MySQL",
+        "slug": "mysql",
+        "category": "Skill: Databases",
+        "description": "Comprehensive mastery of MySQL focusing on modern best practices.",
+        "why_now": "MySQL's popularity is declining in 2026 due to the rise of other databases",
+        "core_skills": [
+            "MySQL",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "6-10 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "high",
+        "situation": "Declining demand due to the increasing adoption of more modern databases",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years before being largely replaced by other databases",
+        "demand_score": 60,
+        "match_keywords": [
+            "mysql"
+        ],
+        "youtube_resources": [
+            "MySQL Masterclass",
+            "Learn MySQL from scratch"
+        ],
+        "roadmap_slug": "mysql",
+        "fastest_path_to_hired": "Learn MySQL basics, practice with legacy systems, and be prepared to adapt to other databases",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:33.854365"
+    },
+    "cassandra": {
+        "title": "Cassandra",
+        "slug": "cassandra",
+        "category": "Skill: Databases",
+        "description": "Comprehensive mastery of Cassandra focusing on modern best practices.",
+        "why_now": "Cassandra's scalability is still valuable in 2026, but its complexity is a drawback",
+        "core_skills": [
+            "Cassandra",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-12 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "medium",
+        "situation": "Declining demand due to the increasing adoption of more user-friendly databases",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "4-6 years before being replaced by more scalable solutions",
+        "demand_score": 37,
+        "match_keywords": [
+            "cassandra"
+        ],
+        "youtube_resources": [
+            "Cassandra Masterclass",
+            "Learn Cassandra from scratch"
+        ],
+        "roadmap_slug": "cassandra",
+        "fastest_path_to_hired": "Master Cassandra administration, learn distributed systems, and gain experience with big data processing",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:34.295763"
+    },
+    "docker": {
+        "title": "Docker",
+        "slug": "docker",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of Docker focusing on modern best practices.",
+        "why_now": "Docker's containerization capabilities are crucial for modern application deployment in 2026",
+        "core_skills": [
+            "Docker",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-20 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to the growing need for efficient and scalable application deployment",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years as a leading containerization platform",
+        "demand_score": 100,
+        "match_keywords": [
+            "docker"
+        ],
+        "youtube_resources": [
+            "Docker Masterclass",
+            "Learn Docker from scratch"
+        ],
+        "roadmap_slug": "docker",
+        "fastest_path_to_hired": "Learn Docker basics, practice with real-world projects, and get certified in containerization",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:34.741369"
+    },
+    "kubernetes": {
+        "title": "Kubernetes",
+        "slug": "kubernetes",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of Kubernetes focusing on modern best practices.",
+        "why_now": "Kubernetes's orchestration capabilities are essential for modern application management in 2026",
+        "core_skills": [
+            "Kubernetes",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "18-25 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to the growing need for efficient and scalable application management",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years as a leading orchestration platform",
+        "demand_score": 100,
+        "match_keywords": [
+            "kubernetes"
+        ],
+        "youtube_resources": [
+            "Kubernetes Masterclass",
+            "Learn Kubernetes from scratch"
+        ],
+        "roadmap_slug": "kubernetes",
+        "fastest_path_to_hired": "Master Kubernetes administration, learn containerization, and gain experience with cloud-native applications",
+        "social_signal": 93,
+        "last_updated": "2026-04-05T13:20:35.187591"
+    },
+    "aws": {
+        "title": "AWS",
+        "slug": "aws",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of AWS focusing on modern best practices.",
+        "why_now": "AWS's cloud capabilities are crucial for modern application deployment and management in 2026",
+        "core_skills": [
+            "AWS",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "16-22 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to the growing need for efficient and scalable cloud infrastructure",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years as a leading cloud platform",
+        "demand_score": 100,
+        "match_keywords": [
+            "aws"
+        ],
+        "youtube_resources": [
+            "AWS Masterclass",
+            "Learn AWS from scratch"
+        ],
+        "roadmap_slug": "aws",
+        "fastest_path_to_hired": "Learn AWS basics, practice with real-world projects, and get certified in cloud computing",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:35.618310"
+    },
+    "azure": {
+        "title": "Azure",
+        "slug": "azure",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of Azure focusing on modern best practices.",
+        "why_now": "Azure's cloud capabilities are essential for modern application deployment and management in 2026",
+        "core_skills": [
+            "Azure",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "14-20 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to the growing need for efficient and scalable cloud infrastructure",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "9-11 years as a leading cloud platform",
+        "demand_score": 90,
+        "match_keywords": [
+            "azure"
+        ],
+        "youtube_resources": [
+            "Azure Masterclass",
+            "Learn Azure from scratch"
+        ],
+        "roadmap_slug": "azure",
+        "fastest_path_to_hired": "Learn Azure basics, practice with real-world projects, and get certified in cloud computing",
+        "social_signal": 89,
+        "last_updated": "2026-04-05T13:20:36.053948"
+    },
+    "gcp": {
+        "title": "GCP",
+        "slug": "gcp",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of GCP focusing on modern best practices.",
+        "why_now": "GCP's growing market share and increasing demand for cloud experts make it a lucrative career choice in 2026",
+        "core_skills": [
+            "GCP",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "18-25 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Indian companies are rapidly adopting GCP, driving up demand for skilled professionals",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, evolving with cloud infrastructure",
+        "demand_score": 90,
+        "match_keywords": [
+            "gcp"
+        ],
+        "youtube_resources": [
+            "GCP Masterclass",
+            "Learn GCP from scratch"
+        ],
+        "roadmap_slug": "gcp",
+        "fastest_path_to_hired": "Get certified in GCP, build a strong portfolio of projects, and network with industry professionals",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:36.459601"
+    },
+    "terraform": {
+        "title": "Terraform",
+        "slug": "terraform",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of Terraform focusing on modern best practices.",
+        "why_now": "Terraform's popularity is soaring due to its ability to manage complex infrastructure, making it a highly sought-after skill in 2026",
+        "core_skills": [
+            "Terraform",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Indian startups and enterprises are adopting Terraform to streamline their infrastructure management, creating a huge demand for experts",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, essential for infrastructure management",
+        "demand_score": 88,
+        "match_keywords": [
+            "terraform"
+        ],
+        "youtube_resources": [
+            "Terraform Masterclass",
+            "Learn Terraform from scratch"
+        ],
+        "roadmap_slug": "terraform",
+        "fastest_path_to_hired": "Learn Terraform, practice with real-world projects, and participate in online communities to showcase expertise",
+        "social_signal": 83,
+        "last_updated": "2026-04-05T13:20:36.936484"
+    },
+    "linux": {
+        "title": "Linux",
+        "slug": "linux",
+        "category": "Skill: Infrastructure & Cloud",
+        "description": "Comprehensive mastery of Linux focusing on modern best practices.",
+        "why_now": "Linux skills are still essential in 2026, but professionals need to adapt to emerging trends like automation and AI",
+        "core_skills": [
+            "Linux",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are using Linux for various applications, but the rise of automation is changing the landscape",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years, still relevant but evolving with automation",
+        "demand_score": 70,
+        "match_keywords": [
+            "linux"
+        ],
+        "youtube_resources": [
+            "Linux Masterclass",
+            "Learn Linux from scratch"
+        ],
+        "roadmap_slug": "linux",
+        "fastest_path_to_hired": "Get proficient in Linux, learn scripting languages, and explore emerging areas like DevOps and cloud computing",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:37.414086"
+    },
+    "dsa-data-structures--algorithms": {
+        "title": "DSA (Data Structures & Algorithms)",
+        "slug": "dsa-data-structures--algorithms",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of DSA (Data Structures & Algorithms) focusing on modern best practices.",
+        "why_now": "DSA skills are the foundation of any successful tech career, and their importance will only continue to grow in 2026",
+        "core_skills": [
+            "DSA (Data Structures & Algorithms)",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Indian companies are looking for professionals with strong DSA skills to solve complex problems and drive innovation",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "15-20 years, fundamental skills for any tech professional",
+        "demand_score": 100,
+        "match_keywords": [
+            "structures",
+            "dsa (data structures & algorithms)",
+            "algorithms",
+            "dsa",
+            "dsa data structures  algorithms",
+            "data"
+        ],
+        "youtube_resources": [
+            "DSA (Data Structures & Algorithms) Masterclass",
+            "Learn DSA (Data Structures & Algorithms) from scratch"
+        ],
+        "roadmap_slug": "dsa-data-structures--algorithms",
+        "fastest_path_to_hired": "Master DSA concepts, practice with platforms like LeetCode, and build a strong portfolio of projects",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:38.084987"
+    },
+    "cs-fundamentals": {
+        "title": "CS Fundamentals",
+        "slug": "cs-fundamentals",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of CS Fundamentals focusing on modern best practices.",
+        "why_now": "CS fundamentals are crucial for any tech professional, and their importance will only continue to grow in 2026",
+        "core_skills": [
+            "CS Fundamentals",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Indian companies are looking for professionals with a strong grasp of CS fundamentals to drive innovation and solve complex problems",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, essential for any tech professional",
+        "demand_score": 85,
+        "match_keywords": [
+            "fundamentals",
+            "cs fundamentals"
+        ],
+        "youtube_resources": [
+            "CS Fundamentals Masterclass",
+            "Learn CS Fundamentals from scratch"
+        ],
+        "roadmap_slug": "cs-fundamentals",
+        "fastest_path_to_hired": "Get a strong foundation in CS concepts, build a portfolio of projects, and network with industry professionals",
+        "social_signal": 86,
+        "last_updated": "2026-04-05T13:20:38.532160"
+    },
+    "machine-learning": {
+        "title": "Machine Learning",
+        "slug": "machine-learning",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of Machine Learning focusing on modern best practices.",
+        "why_now": "Machine learning is a highly sought-after skill in 2026, but professionals need to adapt to emerging trends like automation and AI",
+        "core_skills": [
+            "Machine Learning",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "30-50 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are adopting machine learning to drive innovation and solve complex problems, but the rise of automation is changing the landscape",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, evolving with AI advancements",
+        "demand_score": 100,
+        "match_keywords": [
+            "learning",
+            "machine learning",
+            "machine"
+        ],
+        "youtube_resources": [
+            "Machine Learning Masterclass",
+            "Learn Machine Learning from scratch"
+        ],
+        "roadmap_slug": "ai-data-scientist",
+        "fastest_path_to_hired": "Master machine learning concepts, practice with real-world projects, and explore emerging areas like deep learning and NLP",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:38.975757"
+    },
+    "deep-learning": {
+        "title": "Deep Learning",
+        "slug": "deep-learning",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of Deep Learning focusing on modern best practices.",
+        "why_now": "Deep learning is a highly sought-after skill in 2026, but professionals need to adapt to emerging trends like automation and AI",
+        "core_skills": [
+            "Deep Learning",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "35-60 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are adopting deep learning to drive innovation and solve complex problems, but the rise of automation is changing the landscape",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, evolving with AI advancements",
+        "demand_score": 100,
+        "match_keywords": [
+            "deep",
+            "learning",
+            "deep learning"
+        ],
+        "youtube_resources": [
+            "Deep Learning Masterclass",
+            "Learn Deep Learning from scratch"
+        ],
+        "roadmap_slug": "deep-learning",
+        "fastest_path_to_hired": "Master deep learning concepts, practice with real-world projects, and explore emerging areas like computer vision and NLP",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:39.602637"
+    },
+    "computer-vision": {
+        "title": "Computer Vision",
+        "slug": "computer-vision",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of Computer Vision focusing on modern best practices.",
+        "why_now": "Computer vision is a highly sought-after skill in 2026, but professionals need to adapt to emerging trends like automation and AI",
+        "core_skills": [
+            "Computer Vision",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "32-55 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are adopting computer vision to drive innovation and solve complex problems, but the rise of automation is changing the landscape",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, evolving with AI advancements",
+        "demand_score": 94,
+        "match_keywords": [
+            "computer vision",
+            "computer",
+            "vision"
+        ],
+        "youtube_resources": [
+            "Computer Vision Masterclass",
+            "Learn Computer Vision from scratch"
+        ],
+        "roadmap_slug": "computer-vision",
+        "fastest_path_to_hired": "Master computer vision concepts, practice with real-world projects, and explore emerging areas like deep learning and NLP",
+        "social_signal": 83,
+        "last_updated": "2026-04-05T13:20:40.304854"
+    },
+    "nlp": {
+        "title": "NLP",
+        "slug": "nlp",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of NLP focusing on modern best practices.",
+        "why_now": "NLP is a highly sought-after skill in 2026, but professionals need to adapt to emerging trends like automation and AI",
+        "core_skills": [
+            "NLP",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "30-50 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian companies are adopting NLP to drive innovation and solve complex problems, but the rise of automation is changing the landscape",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, evolving with AI advancements",
+        "demand_score": 100,
+        "match_keywords": [
+            "nlp"
+        ],
+        "youtube_resources": [
+            "NLP Masterclass",
+            "Learn NLP from scratch"
+        ],
+        "roadmap_slug": "nlp",
+        "fastest_path_to_hired": "Master NLP concepts, practice with real-world projects, and explore emerging areas like deep learning and computer vision",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:40.746677"
+    },
+    "langchain": {
+        "title": "LangChain",
+        "slug": "langchain",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of LangChain focusing on modern best practices.",
+        "why_now": "LangChain is an emerging field in 2026, but its future is uncertain due to the rapid evolution of AI and automation",
+        "core_skills": [
+            "LangChain",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "15-25 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Indian companies are exploring LangChain, but the field is still in its infancy, and the demand is not yet consistent",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years, emerging field with uncertain future",
+        "demand_score": 67,
+        "match_keywords": [
+            "langchain"
+        ],
+        "youtube_resources": [
+            "LangChain Masterclass",
+            "Learn LangChain from scratch"
+        ],
+        "roadmap_slug": "langchain",
+        "fastest_path_to_hired": "Get familiar with LangChain concepts, build a portfolio of projects, and network with industry professionals to stay ahead of the curve",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:41.189202"
+    },
+    "vector-databases": {
+        "title": "Vector Databases",
+        "slug": "vector-databases",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of Vector Databases focusing on modern best practices.",
+        "why_now": "Vector databases are crucial for efficient AI model training and inference in 2026.",
+        "core_skills": [
+            "Vector Databases",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Rapid adoption in industries leveraging AI for decision-making.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, evolving with AI advancements",
+        "demand_score": 77,
+        "match_keywords": [
+            "vector databases",
+            "databases",
+            "vector"
+        ],
+        "youtube_resources": [
+            "Vector Databases Masterclass",
+            "Learn Vector Databases from scratch"
+        ],
+        "roadmap_slug": "vector-databases",
+        "fastest_path_to_hired": "Master vector database fundamentals and contribute to open-source projects.",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:41.623354"
+    },
+    "rag-systems": {
+        "title": "RAG Systems",
+        "slug": "rag-systems",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of RAG Systems focusing on modern best practices.",
+        "why_now": "RAG systems are being explored for their potential to enhance AI reasoning capabilities in 2026.",
+        "core_skills": [
+            "RAG Systems",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "20-28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Niche demand, primarily in research and development of advanced AI applications.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-8 years, with potential for integration into broader AI systems",
+        "demand_score": 80,
+        "match_keywords": [
+            "systems",
+            "rag systems",
+            "pinecone",
+            "vector db",
+            "rag",
+            "llamaindex",
+            "retrieval augmented generation"
+        ],
+        "youtube_resources": [
+            "RAG Systems Masterclass",
+            "Learn RAG Systems from scratch"
+        ],
+        "roadmap_slug": "rag-systems",
+        "fastest_path_to_hired": "Develop a strong foundation in AI and software engineering, then specialize in RAG systems.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:42.060906"
+    },
+    "advanced-rag-architectures": {
+        "title": "Advanced RAG Architectures",
+        "slug": "advanced-rag-architectures",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of Advanced RAG Architectures focusing on modern best practices.",
+        "why_now": "Advanced RAG architectures are pivotal for the next generation of AI systems, making them highly sought after in 2026.",
+        "core_skills": [
+            "Advanced RAG Architectures",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "30-40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to their critical role in developing sophisticated AI applications.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years, as these architectures underpin future AI advancements",
+        "demand_score": 100,
+        "match_keywords": [
+            "advanced",
+            "pinecone",
+            "vector db",
+            "rag",
+            "llamaindex",
+            "advanced rag architectures",
+            "architectures",
+            "retrieval augmented generation"
+        ],
+        "youtube_resources": [
+            "Advanced RAG Architectures Masterclass",
+            "Learn Advanced RAG Architectures from scratch"
+        ],
+        "roadmap_slug": "advanced-rag-architectures",
+        "fastest_path_to_hired": "Gain expertise in RAG systems and participate in cutting-edge AI research projects.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:42.533799"
+    },
+    "multimodal-embedding-systems": {
+        "title": "Multimodal Embedding Systems",
+        "slug": "multimodal-embedding-systems",
+        "category": "Skill: Data & AI",
+        "description": "Comprehensive mastery of Multimodal Embedding Systems focusing on modern best practices.",
+        "why_now": "Multimodal embedding systems are essential for handling diverse data types in modern AI applications, driving their demand in 2026.",
+        "core_skills": [
+            "Multimodal Embedding Systems",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "28-36 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Growing demand across industries for more comprehensive data analysis and AI-driven insights.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years, with continuous evolution to accommodate new data types",
+        "demand_score": 82,
+        "match_keywords": [
+            "multimodal",
+            "systems",
+            "embedding",
+            "multimodal embedding systems"
+        ],
+        "youtube_resources": [
+            "Multimodal Embedding Systems Masterclass",
+            "Learn Multimodal Embedding Systems from scratch"
+        ],
+        "roadmap_slug": "multimodal-embedding-systems",
+        "fastest_path_to_hired": "Focus on developing skills in multimodal learning and embedding techniques, and apply them to real-world problems.",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:42.999528"
+    },
+    "prompt-engineering": {
+        "title": "Prompt Engineering",
+        "slug": "prompt-engineering",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of Prompt Engineering focusing on modern best practices.",
+        "why_now": "Prompt engineering is a critical skill in 2026 for optimizing AI model performance, but its standalone relevance may wane as AI evolves.",
+        "core_skills": [
+            "Prompt Engineering",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "18-25 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Current demand is high due to the need for efficient AI model interaction, but the role may become less distinct over time.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years, then likely to be absorbed into other AI engineering roles",
+        "demand_score": 57,
+        "match_keywords": [
+            "prompt engineering",
+            "engineering",
+            "prompt",
+            "prompt ai better",
+            "chatgpt"
+        ],
+        "youtube_resources": [
+            "Prompt Engineering Masterclass",
+            "Learn Prompt Engineering from scratch"
+        ],
+        "roadmap_slug": "prompt-engineering",
+        "fastest_path_to_hired": "Develop strong problem-solving skills and learn to craft effective prompts for various AI models.",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:43.465477"
+    },
+    "ai-agents": {
+        "title": "AI Agents",
+        "slug": "ai-agents",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of AI Agents focusing on modern best practices.",
+        "why_now": "AI agents are fundamental to the development of autonomous and intelligent systems, making them highly valuable in 2026.",
+        "core_skills": [
+            "AI Agents",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "35-45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "Rapidly increasing demand due to their central role in next-generation AI applications and smart infrastructure.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, as AI agents form the backbone of future autonomous systems",
+        "demand_score": 100,
+        "match_keywords": [
+            "autogpt",
+            "crewai",
+            "agents",
+            "ai agents",
+            "babyagi"
+        ],
+        "youtube_resources": [
+            "AI Agents Masterclass",
+            "Learn AI Agents from scratch"
+        ],
+        "roadmap_slug": "ai-agents",
+        "fastest_path_to_hired": "Master AI and machine learning fundamentals, then specialize in agent-based systems and autonomous technologies.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:43.893500"
+    },
+    "fine-tuning-llms": {
+        "title": "Fine-tuning LLMs",
+        "slug": "fine-tuning-llms",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of Fine-tuning LLMs focusing on modern best practices.",
+        "why_now": "Fine-tuning LLMs is a critical skill in 2026 for optimizing AI performance in specific tasks and domains.",
+        "core_skills": [
+            "Fine-tuning LLMs",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "25-33 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "High demand due to the widespread adoption of LLMs across industries, but the role may evolve as AI technology advances.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-8 years, with potential for evolution into more specialized AI tuning roles",
+        "demand_score": 76,
+        "match_keywords": [
+            "fine tuning llms",
+            "fine-tuning",
+            "llms",
+            "fine-tuning llms"
+        ],
+        "youtube_resources": [
+            "Fine-tuning LLMs Masterclass",
+            "Learn Fine-tuning LLMs from scratch"
+        ],
+        "roadmap_slug": "fine-tuning-llms",
+        "fastest_path_to_hired": "Develop expertise in LLMs and learn to fine-tune these models for various applications and datasets.",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:44.506739"
+    },
+    "vibe-coding": {
+        "title": "Vibe Coding",
+        "slug": "vibe-coding",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of Vibe Coding focusing on modern best practices.",
+        "why_now": "Vibe coding, while novel, faces significant challenges from AI automation, limiting its long-term viability in 2026.",
+        "core_skills": [
+            "Vibe Coding",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "12-18 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "very_high",
+        "situation": "Niche interest but lacks broad industry adoption due to the high potential for AI disruption.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "1-3 years, likely to be heavily automated or replaced by AI",
+        "demand_score": 50,
+        "match_keywords": [
+            "vibe",
+            "vibe coding",
+            "coding"
+        ],
+        "youtube_resources": [
+            "Vibe Coding Masterclass",
+            "Learn Vibe Coding from scratch"
+        ],
+        "roadmap_slug": "vibe-coding",
+        "fastest_path_to_hired": "Develop a basic understanding of coding principles and explore vibe coding as a hobby or side project.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:44.969744"
+    },
+    "claude-code": {
+        "title": "Claude Code",
+        "slug": "claude-code",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of Claude Code focusing on modern best practices.",
+        "why_now": "Claude code, similar to vibe coding, faces uncertainty in 2026 due to its novelty and the rapid advancement of AI coding tools.",
+        "core_skills": [
+            "Claude Code",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "high",
+        "situation": "Limited demand and high risk of AI disruption make this a less stable career path.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "2-4 years, with potential for absorption into other coding roles or automation",
+        "demand_score": 60,
+        "match_keywords": [
+            "code",
+            "claude",
+            "claude code"
+        ],
+        "youtube_resources": [
+            "Claude Code Masterclass",
+            "Learn Claude Code from scratch"
+        ],
+        "roadmap_slug": "claude-code",
+        "fastest_path_to_hired": "Learn the basics of Claude code and consider it as part of a broader skill set in coding and software development.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:45.409060"
+    },
+    "github-copilot-mastery": {
+        "title": "GitHub Copilot Mastery",
+        "slug": "github-copilot-mastery",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of GitHub Copilot Mastery focusing on modern best practices.",
+        "why_now": "Mastery of GitHub Copilot is valuable in 2026 for enhancing developer productivity, but its long-term relevance depends on the evolution of AI-assisted coding tools.",
+        "core_skills": [
+            "GitHub Copilot Mastery",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "20-28 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "Demand exists due to the tool's popularity, but the role may change as AI coding assistance becomes more prevalent.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "4-6 years, with potential for evolution into AI-assisted development roles",
+        "demand_score": 80,
+        "match_keywords": [
+            "mastery",
+            "github",
+            "github copilot mastery",
+            "copilot"
+        ],
+        "youtube_resources": [
+            "GitHub Copilot Mastery Masterclass",
+            "Learn GitHub Copilot Mastery from scratch"
+        ],
+        "roadmap_slug": "github-copilot-mastery",
+        "fastest_path_to_hired": "Become proficient in using GitHub Copilot and other AI-assisted coding tools to improve development efficiency.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:45.848511"
+    },
+    "agentic-frameworks": {
+        "title": "Agentic Frameworks",
+        "slug": "agentic-frameworks",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of Agentic Frameworks focusing on modern best practices.",
+        "why_now": "Agentic frameworks are crucial for developing autonomous systems that can adapt to complex environments.",
+        "core_skills": [
+            "Agentic Frameworks",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Indian startups and global tech giants are investing heavily in agentic frameworks for AI and robotics applications.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-7 years before evolution into more specialized roles",
+        "demand_score": 90,
+        "match_keywords": [
+            "autogpt",
+            "crewai",
+            "agents",
+            "frameworks",
+            "agentic frameworks",
+            "agentic",
+            "babyagi"
+        ],
+        "youtube_resources": [
+            "Agentic Frameworks Masterclass",
+            "Learn Agentic Frameworks from scratch"
+        ],
+        "roadmap_slug": "agentic-frameworks",
+        "fastest_path_to_hired": "Master's in AI or Robotics with a focus on agentic frameworks and problem-solving skills.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:46.283940"
+    },
+    "local-llm-deployment": {
+        "title": "Local LLM Deployment",
+        "slug": "local-llm-deployment",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of Local LLM Deployment focusing on modern best practices.",
+        "why_now": "Local LLM deployment is a priority for companies looking to secure and optimize their AI infrastructure.",
+        "core_skills": [
+            "Local LLM Deployment",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "30-45 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "The demand for local LLM deployment experts is skyrocketing due to data privacy and security concerns.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-12 years as LLMs become ubiquitous in enterprise environments",
+        "demand_score": 91,
+        "match_keywords": [
+            "deployment",
+            "local llm deployment",
+            "local",
+            "llm"
+        ],
+        "youtube_resources": [
+            "Local LLM Deployment Masterclass",
+            "Learn Local LLM Deployment from scratch"
+        ],
+        "roadmap_slug": "local-llm-deployment",
+        "fastest_path_to_hired": "Gain experience in cloud computing, LLMs, and DevOps to transition into local LLM deployment roles.",
+        "social_signal": 88,
+        "last_updated": "2026-04-05T13:20:46.753009"
+    },
+    "tensorrt": {
+        "title": "TensorRT",
+        "slug": "tensorrt",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of TensorRT focusing on modern best practices.",
+        "why_now": "TensorRT is essential for optimizing and deploying AI models in production environments.",
+        "core_skills": [
+            "TensorRT",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-30 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "While TensorRT is widely used, its demand is stabilizing as newer optimization tools emerge.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "4-6 years before being replaced by more efficient optimization tools",
+        "demand_score": 70,
+        "match_keywords": [
+            "tensorrt"
+        ],
+        "youtube_resources": [
+            "TensorRT Masterclass",
+            "Learn TensorRT from scratch"
+        ],
+        "roadmap_slug": "tensorrt",
+        "fastest_path_to_hired": "Develop expertise in deep learning, model optimization, and TensorRT to work on AI model deployment projects.",
+        "social_signal": 85,
+        "last_updated": "2026-04-05T13:20:47.173054"
+    },
+    "vllm": {
+        "title": "vLLM",
+        "slug": "vllm",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of vLLM focusing on modern best practices.",
+        "why_now": "vLLMs are revolutionizing the way companies approach AI-powered customer service and support.",
+        "core_skills": [
+            "vLLM",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "35-50 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "The vLLM market is rapidly expanding, with Indian companies investing heavily in vLLM-based solutions.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years as vLLMs continue to evolve and improve",
+        "demand_score": 95,
+        "match_keywords": [
+            "vllm"
+        ],
+        "youtube_resources": [
+            "vLLM Masterclass",
+            "Learn vLLM from scratch"
+        ],
+        "roadmap_slug": "vllm",
+        "fastest_path_to_hired": "Pursue a career in NLP, machine learning, and vLLM development to capitalize on this trend.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:47.628048"
+    },
+    "llamaindex": {
+        "title": "LlamaIndex",
+        "slug": "llamaindex",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of LlamaIndex focusing on modern best practices.",
+        "why_now": "LlamaIndex is a crucial tool for efficient AI model deployment and management.",
+        "core_skills": [
+            "LlamaIndex",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "15-25 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "While LlamaIndex is popular, its demand is threatened by emerging technologies that offer better performance and scalability.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "2-4 years before being disrupted by more advanced indexing technologies",
+        "demand_score": 56,
+        "match_keywords": [
+            "llamaindex"
+        ],
+        "youtube_resources": [
+            "LlamaIndex Masterclass",
+            "Learn LlamaIndex from scratch"
+        ],
+        "roadmap_slug": "llamaindex",
+        "fastest_path_to_hired": "Develop skills in AI model deployment, indexing, and management to work on LlamaIndex projects.",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:48.076107"
+    },
+    "langgraph": {
+        "title": "LangGraph",
+        "slug": "langgraph",
+        "category": "Skill: Emerging AI Skills",
+        "description": "Comprehensive mastery of LangGraph focusing on modern best practices.",
+        "why_now": "LangGraph is essential for developing more sophisticated and human-like AI models.",
+        "core_skills": [
+            "LangGraph",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-40 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "The demand for LangGraph experts is increasing as companies focus on creating more advanced AI-powered systems.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-10 years before evolving into more specialized roles",
+        "demand_score": 76,
+        "match_keywords": [
+            "langgraph"
+        ],
+        "youtube_resources": [
+            "LangGraph Masterclass",
+            "Learn LangGraph from scratch"
+        ],
+        "roadmap_slug": "langgraph",
+        "fastest_path_to_hired": "Pursue a career in NLP, graph theory, and AI model development to work on LangGraph projects.",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:48.494722"
+    },
+    "prompt-injection-defense": {
+        "title": "Prompt Injection Defense",
+        "slug": "prompt-injection-defense",
+        "category": "Skill: AI Security & Validation",
+        "description": "Comprehensive mastery of Prompt Injection Defense focusing on modern best practices.",
+        "why_now": "Prompt injection defense is critical for protecting AI systems from malicious attacks and data breaches.",
+        "core_skills": [
+            "Prompt Injection Defense",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "40-60 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "The demand for prompt injection defense experts is skyrocketing due to the increasing threat of AI-powered cyber attacks.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-18 years as AI security becomes a top priority for companies",
+        "demand_score": 100,
+        "match_keywords": [
+            "defense",
+            "prompt injection defense",
+            "injection",
+            "prompt"
+        ],
+        "youtube_resources": [
+            "Prompt Injection Defense Masterclass",
+            "Learn Prompt Injection Defense from scratch"
+        ],
+        "roadmap_slug": "prompt-injection-defense",
+        "fastest_path_to_hired": "Develop expertise in AI security, threat analysis, and defense mechanisms to transition into prompt injection defense roles.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:48.928315"
+    },
+    "model-red-teaming": {
+        "title": "Model Red Teaming",
+        "slug": "model-red-teaming",
+        "category": "Skill: AI Security & Validation",
+        "description": "Comprehensive mastery of Model Red Teaming focusing on modern best practices.",
+        "why_now": "Model red teaming is essential for identifying and mitigating potential vulnerabilities in AI models.",
+        "core_skills": [
+            "Model Red Teaming",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "35-55 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "The demand for model red teaming experts is increasing as companies focus on developing more secure and reliable AI systems.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years as model red teaming becomes a standard practice in AI development",
+        "demand_score": 100,
+        "match_keywords": [
+            "defense",
+            "jailbreak",
+            "security",
+            "privacy",
+            "hacker",
+            "red",
+            "devsecops",
+            "teaming",
+            "model",
+            "red team",
+            "model red teaming"
+        ],
+        "youtube_resources": [
+            "Model Red Teaming Masterclass",
+            "Learn Model Red Teaming from scratch"
+        ],
+        "roadmap_slug": "model-red-teaming",
+        "fastest_path_to_hired": "Pursue a career in AI security, red teaming, and threat analysis to work on model red teaming projects.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:49.371450"
+    },
+    "evaluation-metrics-eval": {
+        "title": "Evaluation Metrics (Eval)",
+        "slug": "evaluation-metrics-eval",
+        "category": "Skill: AI Security & Validation",
+        "description": "Comprehensive mastery of Evaluation Metrics (Eval) focusing on modern best practices.",
+        "why_now": "Evaluation metrics are crucial for assessing the performance and effectiveness of AI models.",
+        "core_skills": [
+            "Evaluation Metrics (Eval)",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-35 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "medium",
+        "situation": "While evaluation metrics are essential, their demand is stabilizing as newer metrics and methodologies emerge.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "5-8 years before being replaced by more advanced evaluation metrics",
+        "demand_score": 80,
+        "match_keywords": [
+            "eval",
+            "metrics",
+            "evaluation",
+            "evaluation metrics eval",
+            "evaluation metrics (eval)"
+        ],
+        "youtube_resources": [
+            "Evaluation Metrics (Eval) Masterclass",
+            "Learn Evaluation Metrics (Eval) from scratch"
+        ],
+        "roadmap_slug": "evaluation-metrics-eval",
+        "fastest_path_to_hired": "Develop expertise in statistics, data analysis, and AI model evaluation to work on evaluation metrics projects.",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:49.827215"
+    },
+    "api-security": {
+        "title": "API Security",
+        "slug": "api-security",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of API Security focusing on modern best practices.",
+        "why_now": "API security is critical for protecting sensitive data and preventing cyber attacks.",
+        "core_skills": [
+            "API Security",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "30-50 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "The demand for API security experts is increasing as companies focus on developing more secure and reliable API-powered systems.",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-15 years as API security becomes a top priority for companies",
+        "demand_score": 82,
+        "match_keywords": [
+            "api security",
+            "jailbreak",
+            "security",
+            "privacy",
+            "hacker",
+            "defense",
+            "devsecops",
+            "red team",
+            "api"
+        ],
+        "youtube_resources": [
+            "API Security Masterclass",
+            "Learn API Security from scratch"
+        ],
+        "roadmap_slug": "api-security",
+        "fastest_path_to_hired": "Pursue a career in API development, security, and threat analysis to transition into API security roles.",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:50.258466"
+    },
+    "system-design": {
+        "title": "System Design",
+        "slug": "system-design",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of System Design focusing on modern best practices.",
+        "why_now": "System design skills are crucial for building scalable and efficient systems in 2026",
+        "core_skills": [
+            "System Design",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "low",
+        "situation": "High demand due to increasing complexity of software systems",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, evolves with technology advancements",
+        "demand_score": 86,
+        "match_keywords": [
+            "system design",
+            "design",
+            "system"
+        ],
+        "youtube_resources": [
+            "System Design Masterclass",
+            "Learn System Design from scratch"
+        ],
+        "roadmap_slug": "system-design",
+        "fastest_path_to_hired": "Gain experience in designing and implementing scalable systems, and learn AI tooling",
+        "social_signal": 88,
+        "last_updated": "2026-04-05T13:20:50.708601"
+    },
+    "backend-performance": {
+        "title": "Backend Performance",
+        "slug": "backend-performance",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of Backend Performance focusing on modern best practices.",
+        "why_now": "Optimizing backend performance is critical for improving user experience in 2026",
+        "core_skills": [
+            "Backend Performance",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "20-28 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "medium",
+        "situation": "Growing demand for fast and efficient backend systems",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "6-8 years, may be partially automated",
+        "demand_score": 66,
+        "match_keywords": [
+            "backend performance",
+            "performance",
+            "backend"
+        ],
+        "youtube_resources": [
+            "Backend Performance Masterclass",
+            "Learn Backend Performance from scratch"
+        ],
+        "roadmap_slug": "backend-performance",
+        "fastest_path_to_hired": "Focus on learning performance optimization techniques and AI-powered monitoring tools",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:51.149962"
+    },
+    "frontend-performance": {
+        "title": "Frontend Performance",
+        "slug": "frontend-performance",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of Frontend Performance focusing on modern best practices.",
+        "why_now": "Improving frontend performance is essential for enhancing user experience in 2026",
+        "core_skills": [
+            "Frontend Performance",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "15-22 LPA",
+        "global_demand": "medium",
+        "ai_disruption_risk": "high",
+        "situation": "Moderate demand, but AI-powered tools may soon automate some tasks",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "3-5 years, may be heavily automated",
+        "demand_score": 56,
+        "match_keywords": [
+            "frontend performance",
+            "performance",
+            "frontend"
+        ],
+        "youtube_resources": [
+            "Frontend Performance Masterclass",
+            "Learn Frontend Performance from scratch"
+        ],
+        "roadmap_slug": "frontend-performance",
+        "fastest_path_to_hired": "Develop skills in optimizing frontend code and learn about AI-driven performance optimization",
+        "social_signal": 81,
+        "last_updated": "2026-04-05T13:20:51.612090"
+    },
+    "code-review": {
+        "title": "Code Review",
+        "slug": "code-review",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of Code Review focusing on modern best practices.",
+        "why_now": "Code review is still necessary in 2026, but AI-powered tools are increasingly taking over",
+        "core_skills": [
+            "Code Review",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "10-18 LPA",
+        "global_demand": "low",
+        "ai_disruption_risk": "very_high",
+        "situation": "Limited demand due to rising adoption of AI-powered code review tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "1-2 years, likely to be heavily automated",
+        "demand_score": 60,
+        "match_keywords": [
+            "review",
+            "code review",
+            "code"
+        ],
+        "youtube_resources": [
+            "Code Review Masterclass",
+            "Learn Code Review from scratch"
+        ],
+        "roadmap_slug": "code-review",
+        "fastest_path_to_hired": "Gain experience in code review and learn about AI-driven code analysis tools",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:52.037594"
+    },
+    "git--version-control": {
+        "title": "Git & Version Control",
+        "slug": "git--version-control",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of Git & Version Control focusing on modern best practices.",
+        "why_now": "Git and version control skills are still necessary in 2026, but AI-powered tools are increasingly taking over",
+        "core_skills": [
+            "Git & Version Control",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "8-15 LPA",
+        "global_demand": "declining",
+        "ai_disruption_risk": "very_high",
+        "situation": "Limited demand due to rising adoption of AI-powered version control tools",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "1-2 years, likely to be heavily automated",
+        "demand_score": 50,
+        "match_keywords": [
+            "git & version control",
+            "git",
+            "git  version control",
+            "version",
+            "control"
+        ],
+        "youtube_resources": [
+            "Git & Version Control Masterclass",
+            "Learn Git & Version Control from scratch"
+        ],
+        "roadmap_slug": "git--version-control",
+        "fastest_path_to_hired": "Develop skills in Git and version control, and learn about AI-driven version control tools",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:52.507136"
+    },
+    "cloud-native-ai": {
+        "title": "Cloud-Native AI",
+        "slug": "cloud-native-ai",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of Cloud-Native AI focusing on modern best practices.",
+        "why_now": "Cloud-native AI skills are highly sought after in 2026 for building scalable and efficient AI systems",
+        "core_skills": [
+            "Cloud-Native AI",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "GitHub Copilot Toolkit",
+            "Agentic Frameworks"
+        ],
+        "avg_salary_india": "30-40 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to increasing adoption of cloud-native AI solutions",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "12-15 years, continues to evolve and grow",
+        "demand_score": 92,
+        "match_keywords": [
+            "cloud-native",
+            "cloud-native ai",
+            "cloud native ai"
+        ],
+        "youtube_resources": [
+            "Cloud-Native AI Masterclass",
+            "Learn Cloud-Native AI from scratch"
+        ],
+        "roadmap_slug": "cloud-native-ai",
+        "fastest_path_to_hired": "Gain experience in cloud-native AI and learn about AI-powered tooling and frameworks",
+        "social_signal": 82,
+        "last_updated": "2026-04-05T13:20:53.093146"
+    },
+    "webassembly": {
+        "title": "WebAssembly",
+        "slug": "webassembly",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of WebAssembly focusing on modern best practices.",
+        "why_now": "WebAssembly skills are in high demand in 2026 for building high-performance web applications",
+        "core_skills": [
+            "WebAssembly",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "25-35 LPA",
+        "global_demand": "high",
+        "ai_disruption_risk": "low",
+        "situation": "Growing demand due to increasing adoption of WebAssembly in web development",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "8-10 years, continues to evolve and grow",
+        "demand_score": 79,
+        "match_keywords": [
+            "webassembly"
+        ],
+        "youtube_resources": [
+            "WebAssembly Masterclass",
+            "Learn WebAssembly from scratch"
+        ],
+        "roadmap_slug": "webassembly",
+        "fastest_path_to_hired": "Develop skills in WebAssembly and learn about AI-powered tooling and frameworks",
+        "social_signal": 85,
+        "last_updated": "2026-04-05T13:20:53.564686"
+    },
+    "serverless-gpus": {
+        "title": "Serverless GPUs",
+        "slug": "serverless-gpus",
+        "category": "Skill: Best Practices",
+        "description": "Comprehensive mastery of Serverless GPUs focusing on modern best practices.",
+        "why_now": "Serverless GPU skills are highly sought after in 2026 for building scalable and efficient AI systems",
+        "core_skills": [
+            "Serverless GPUs",
+            "Problem Solving",
+            "AI Tooling"
+        ],
+        "emerging_skills": [
+            "AI-Augmented workflows",
+            "LLM APIs"
+        ],
+        "avg_salary_india": "28-38 LPA",
+        "global_demand": "very_high",
+        "ai_disruption_risk": "very_low",
+        "situation": "High demand due to increasing adoption of serverless GPU solutions",
+        "scope": "Global remote, fast-growing tech hubs.",
+        "lifetime": "10-12 years, continues to evolve and grow",
+        "demand_score": 100,
+        "match_keywords": [
+            "gpus",
+            "serverless gpus",
+            "serverless"
+        ],
+        "youtube_resources": [
+            "Serverless GPUs Masterclass",
+            "Learn Serverless GPUs from scratch"
+        ],
+        "roadmap_slug": "serverless-gpus",
+        "fastest_path_to_hired": "Gain experience in serverless GPU and learn about AI-powered tooling and frameworks",
+        "social_signal": 95,
+        "last_updated": "2026-04-05T13:20:54.020454"
+    }
+}
